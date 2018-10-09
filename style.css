@@ -1,0 +1,37 @@
+body{
+	background-color: beige;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+	/*text-shadow: 3px 3px 10px ; */
+	color: black;
+	letter-spacing: 10px;
+	word-spacing: 15px;
+    text-transform: lowercase;
+}
+a{
+	text-decoration: none;
+	color:burlywood;
+}
+div{
+	text-align: center;
+	margin-left:100px;
+	margin-right: 100px;
+}
+p{
+	font-size: 20px;
+	font-family:serif;
+	font-style:italic;
+}
+#link{
+	font-weight:800;
+}
+p::first-letter{
+	color:darkgoldenrod;
+	font-size: 35px;
+	font-style: normal;
+	margin: 5px 3px 5px 30px;
+}
+
+
