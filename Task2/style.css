@@ -54,16 +54,19 @@ input[type="text"],input[type=""]{
 input[type="radio"]
 {
 	margin: 5px;
-    width: 15px;
     height: 15px;
-    cursor: pointer;
+	cursor: pointer;  
 }
 .FA{
 	width: 394px;;
 }
 .img{
-	border: 1px solid #cccccc;
+	border: 1px solid white;
 	padding: 0;
+}
+button.img{
+	height: 22px;
+	vertical-align:bottom;
 }
 #AddToForm{
 	color: white;
@@ -76,12 +79,3 @@ input[type="radio"]
 	background-color: rgb(65, 105, 225);
 	border-radius: 3px;
 }
-#TheFirstR:checked,#TheSecondR:checked {
-	top: 4px;
-	right: 4px;
-	bottom: 4px;
-	left: 4px;
-	background: rgb(24,137,190);
-	border-radius: 2px;
-}
-/**/
