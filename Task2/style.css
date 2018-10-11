@@ -1,0 +1,87 @@
+body{
+	background-color: lightgrey;
+}
+form{
+	background-color: white;
+	width: 400px;
+	height: 500px;
+	font-family:sans-serif;
+	padding: 20px;
+}
+#FormAction{
+	display: inline;
+	font-weight: 600;
+}
+#mc4wp
+{
+	display: inline;
+	margin-left: 30px;
+	background-color: darkgray;
+	font-weight: 600;
+}
+.data{
+	padding: 20px;
+}
+img{
+	width: 20px;
+	height: 20px;
+}
+#FieldLabel{
+	font-weight: 600;
+}
+.ChoiceType{
+	font-weight: 600;
+}
+.Choices{
+	font-weight: 600;
+}
+.Check{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#Choose{
+	 width: 97%;
+    border: 1px solid rgb(221,221,221);
+    padding: 10px 10px 10px;
+    box-shadow: 10px 0px  rgb(238, 233, 233); 
+}
+input[type="text"],input[type=""]{
+	border-radius: 3px 3px 3px 3px;
+	border-bottom-style:none;
+	padding: 3px;
+	border: 1px solid #cccccc;
+}
+input[type="radio"]
+{
+	margin: 5px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.FA{
+	width: 394px;;
+}
+.img{
+	border: 1px solid #cccccc;
+	padding: 0;
+}
+#AddToForm{
+	color: white;
+	border: 1px solid #cccccc;
+	padding: 7px;
+	border: 1px rgb(25, 25, 112);
+	border-top: none; 
+	width: 110px;
+	font-size: 15px; 
+	background-color: rgb(65, 105, 225);
+	border-radius: 3px;
+}
+#TheFirstR:checked,#TheSecondR:checked {
+	top: 4px;
+	right: 4px;
+	bottom: 4px;
+	left: 4px;
+	background: rgb(24,137,190);
+	border-radius: 2px;
+}
+/**/
