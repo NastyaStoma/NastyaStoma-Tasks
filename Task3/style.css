@@ -551,6 +551,25 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		display: flex;
 		flex-direction: column;
 	}
+		.main__skills__content__text__paragr-brown,
+.main__skills__content__text__paragr-gray,
+.main__skills__content__text__header{
+	font-size: 25px;
+}
+	.header_content__navigation__get-started{
+	font-size: 25px;
+	margin-top: 0px;
+}
+.header_content__navigation__welcome-message{
+	font-size: 30px;
+}
+.header_content__navigation__hello-massage{
+	font-weight: 100;
+	font-size: 40px;
+}
+.header_content__navigation__paragr{
+	font-size: 30px;
+}
 	.header_content__picture{
 		width: 100%;
 	}
@@ -614,6 +633,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 768px){
+	.main__more__content__card__text-1,.main__more__content__card__text-2,
+.main__more__content__card__text-3,.main__more__content__card__text-4{
+	font-size: 22px;
+}
 	.header_content__picture{
 		width: 100%;
 	}
@@ -734,31 +757,35 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		align-content: flex-start;
 	}
 	.main__more__content__card-1{
-		width: 50%;
+		width: 100%;
 		background-color: rgb(210, 105, 30);
 	}
 	.main__more__content__card-2{
-		width: 50%;
+		width: 100%;
 		background-color:rgb(218, 165, 32);
 	}
 	.main__more__content__card-3{
-		width: 50%;
+		width: 100%;
 	}
 	.main__more__content__card-4{
-		width: 50%;
+		width: 100%;
 	}
 	.main__more__content__card__text-1,.main__more__content__card__text-2,
 .main__more__content__card__text-3,.main__more__content__card__text-4{
-	font-size: 20px;
+	font-size: 30px;
 }
 	.main__prefooter__content{
 		max-width: 100%;
+	}
+	
+	.main__prefooter__content__contacts{
+		height: 750px;
 	}
 	.main__prefooter__content__contacts__text{
 		padding-right: 20px;
 	}
 	.main__prefooter__content__contacts__links{
-		padding-right: 20px;
+		padding-right: 10px;
 	}
 	.footer__content{
 	max-width: 100%;
@@ -767,7 +794,14 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 250px;
 	}
 	.footer__content__links{
-	margin-left: 350px;
+	margin-left: 360px;
+	}
+	.main__experiences__content__picture,.main__education__content__picture{
+	min-width: 50%;
+	height: 500px;
+}
+	.main__experiences__content__inform,.main__education__content__inform{
+		height: 500px;
 	}
 }
 @media (max-width: 320px){
@@ -871,5 +905,12 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.footer__content__links{
 	margin-left: 350px;
 		font-size: 20px;
+	}
+	.main__experiences__content__picture,.main__education__content__picture{
+	min-width: 50%;
+	height: 750px;
+}
+	.main__experiences__content__inform,.main__education__content__inform{
+		height: 750px;
 	}
 }
