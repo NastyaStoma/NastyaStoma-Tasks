@@ -5,9 +5,8 @@ body{
 	flex-direction: column; 
 	height: 100%;
 }
-.header_content__navigation__ul__item1,.header_content__navigation__ul__item2,
-.header_content__navigation__ul__item3,.header_content__navigation__ul__item4,
-.header_content__navigation__ul__item5{
+/*--------------------HEADER-----------------------------------------------------*/
+.items{
 	text-decoration: none;
 	display:inline-block;
 	text-transform: uppercase;
@@ -17,9 +16,8 @@ body{
 	font-weight: 600;
 	margin-top: 15px;
 }
-
 .header{
-	display: flex;
+	/*display: flex;*/
 	font-family: 'Lato', sans-serif;
 }
 .header_content{
@@ -33,7 +31,7 @@ body{
 	background-position: center;
 	background-image:url(images/home-img.jpg);
 }
-.header_content__picture_p{
+.header_content__picture-stimulus{
 	padding-left: 170px;
 	padding-top: 10px;
 	font-weight: 700;
@@ -46,29 +44,15 @@ body{
 	height: 820px;
 	background-color: rgb(238, 213, 210);
 }
-.header_content__navigation__ul__a__item1,.header_content__navigation__ul__a__item2,
-.header_content__navigation__ul__a__item3,.header_content__navigation__ul__a__item4,
-.header_content__navigation__ul__a__item5{
+.links{
 	text-decoration: none;
 	color: black;
 }
-.header_content__navigation__ul__a__item1:hover{
-	color: burlywood;
-}
-.header_content__navigation__ul__a__item2:hover{
-	color: burlywood;
-}
-.header_content__navigation__ul__a__item3:hover{
-	color: burlywood;
-}
-.header_content__navigation__ul__a__item4:hover{
-	color: burlywood;
-}
-.header_content__navigation__ul__a__item5:hover{
+.links:hover{
 	color: burlywood;
 }
 
-.header_content__navigation__button{
+.header_content__navigation__get-started{
 	text-transform: uppercase;
 	font-size: 13px;
 	padding-bottom: 10px;
@@ -84,7 +68,7 @@ body{
 	margin-left: 40px;
 	margin-top: 60px;
 }
-.header_content__navigation__h1{
+.header_content__navigation__welcome-message{
 	font-size: 12px;
 	text-transform: uppercase;
 	color: gray;
@@ -92,26 +76,26 @@ body{
 	margin-left: 40px;
 	margin-top: 195px;
 }
-.header_content__navigation__h3{
+.header_content__navigation__hello-massage{
 	font-weight: 100;
 	font-size: 33px;
 	margin-left: 40px;
 	width: 90%;
 }
-.header_content__navigation__p{
+.header_content__navigation__paragr{
 	font-size: 15px;
 	color: gray;
 	font-weight: 100;
 	margin-left: 40px;
 	width: 90%;
 }
-
+/*--------------------BODY-----------------------------------------------------*/
 .main{
-	display: flex;
-	flex-direction:column;
+	/*display: flex;
+	flex-direction:column;*/
 	font-family: 'Lato', sans-serif;
 }
-
+/*----------BODY:skills-line---------------------------------------------------------------*/
 .main__skills{
 	display: flex;
 }
@@ -119,17 +103,18 @@ body{
 	max-width: 1920px;
 	display: flex;
 }
-.main__skills__content__text__p-brown,.main__skills__content__text__p-gray,
-.main__skills__content__text__h3{
+.main__skills__content__text__paragr-brown,
+.main__skills__content__text__paragr-gray,
+.main__skills__content__text__header{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.main__skills__content__text__h3{
+.main__skills__content__text__header{
 	padding-top: 30px;
 	font-weight: 100;
 	font-size: 25px;
 }
-.main__skills__content__text__p-brown{
+.main__skills__content__text__paragr-brown{
 	color: burlywood;
 }
 .main__skills__content__text{
@@ -151,14 +136,14 @@ body{
 	display: flex;
 	flex-direction:column;
 }
-.main__skills__content__levels__h2{
+.main__skills__content__levels__header{
 	padding-top: 10px;
 	padding-left: 30px;
 	font-weight: 100;
 	font-size: 25px;
 	color: white;
 }
-.main__skills__content__levels__p{
+.main__skills__content__levels__list{
 	padding-left: 30px;
 	font-size: 14px;
 	color: white;
@@ -180,13 +165,11 @@ progress::-webkit-progress-value {
 background: rgb(0,0,0);
 	height: 2px;
 }
-.main__skills__content__levels__progress_1,.main__skills__content__levels__progress_2,
-.main__skills__content__levels__progress_3{
+.progress-line{
 	width: 80%;
 	margin-left: 30px;
 }
-.main__skills__content__levels__progress__p_1,.main__skills__content__levels__progress__p_2,
-.main__skills__content__levels__progress__p_3{
+.progress-num{
 	font-size: 15px;
 	padding-left: 30px;
 	font-weight: 600;
@@ -194,8 +177,7 @@ background: rgb(0,0,0);
 	margin-top: 0px;
 	width: 40%;
 }
-.main__skills__content__levels__progress__p_pr_1,.main__skills__content__levels__progress__p_pr_2,
-.main__skills__content__levels__progress__p_pr_3{
+.progress-name{
 	font-size: 13px;
 	padding-left: 30px;
 	font-weight: 600;
@@ -204,8 +186,7 @@ background: rgb(0,0,0);
 	margin-top: 0;
 	width: 40%;
 }
-
-
+/*----------BODY:skills-cards---------------------------------------------------------------*/
 .main__more{
 	display: flex;
 }
@@ -224,7 +205,6 @@ background: rgb(0,0,0);
 	align-items: flex-start;
 	align-items: center;
 }
-
 .main__more__content__card-2{
 	width: 25%;
 	height: 340px;
@@ -255,11 +235,11 @@ background: rgb(0,0,0);
 	align-items: flex-start;
 	align-items: center;
 }
-.main__more__content__card__p-2,.main__more__content__card__p-1{
+.main__more__content__card__text-2,.main__more__content__card__text-1{
 	text-align: center;
 	padding: 20px;
 }
-.main__more__content__card__p-3,.main__more__content__card__p-4{
+.main__more__content__card__text-3,.main__more__content__card__text-4{
 	text-align: center;
 	padding: 20px;
 }
@@ -270,17 +250,15 @@ background: rgb(0,0,0);
 .fa-html5{
 	padding-top: 50px;
 }
-.main__more__content__card__h2-1,.main__more__content__card__h2-2,
-.main__more__content__card__h2-3{
+.main__more__content__card__headline-1,.main__more__content__card__headline-2,
+.main__more__content__card__headline-3{
 	color: white;
 }
-.main__more__content__card__p-1,.main__more__content__card__p-2,
-.main__more__content__card__p-3{
+.main__more__content__card__text-1,.main__more__content__card__text-2,
+.main__more__content__card__text-3{
 	color: white;
 }
-
-
-
+/*----------BODY:experiences-line---------------------------------------------------------------*/
 .main__experiences{
 	display: flex;
 	max-width: 1920px;
@@ -307,7 +285,7 @@ background: rgb(0,0,0);
 	padding-left: 30px;
 	color: whitesmoke;
 }
-
+/*----------BODY:education-line---------------------------------------------------------------*/
 .main__education{
 	display: flex;
 	max-width: 1920px;
@@ -333,13 +311,12 @@ background: rgb(0,0,0);
 	color: whitesmoke;
 	padding-left: 30px;
 }
-.main__education__content__inform__h3,.main__experiences__content__inform__h3{
+.Education,.Experiences{
 	font-size: 30px;
 	font-weight: 100;
 	margin-bottom: 0;
 }
-.main__education__content__inform_design,.main__education__content__inform_arts,
-.main__experiences__content__inform_design,.main__experiences__content__inform_arts{
+.data{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: flex-start;
@@ -349,22 +326,20 @@ background: rgb(0,0,0);
 	padding-right: 20px;
 	padding-top: 10px;
 }
-.main__education__content__inform__h1_design,.main__education__content__inform__h1_arts,
-.main__experiences__content__inform__h1_design,.main__experiences__content__inform__h1_arts{
+.course-name{
 	font-size: 20px;
 	display: flex;
   	flex-direction: row;
 	font-weight: 100;
 	justify-content: center;
 }
-.main__education__content__inform__h2_design,.main__education__content__inform__h2_arts,
-.main__experiences__content__inform__h2_design,.main__experiences__content__inform__h2_arts{
+.duration{
 	font-size: 10px;
 	color: rgb(28, 28, 28);
 	padding-top: 15px;
 	padding-left: 5px;
 }
-
+/*----------BODY:quoate(цитата)-line---------------------------------------------------------------*/
 .main__text{
 	display: flex;
 	background-image:url(images/quotes-bg.jpg);
@@ -397,10 +372,9 @@ background: rgb(0,0,0);
 	color: whitesmoke;
 	font-weight: 100;
 }
-
+/*----------BODY:testimonial-line---------------------------------------------------------------*/
 .main__prefooter{
 	display: flex;
-	position: relative;
 	max-width: 1920px;
 }
 .main__prefooter__content{
@@ -420,13 +394,13 @@ background: rgb(0,0,0);
 	padding-right: 30px;
 	
 }
-.main__prefooter__content__content__sayhello__form__h2{
+.main__prefooter__content__sayhello__form__h2{
 	font-weight: 100;
 	font-size: 40px;
 	color: white;
 	margin-top: 50px;
 }
-.main__prefooter__content__content__sayhello__form__p{
+.main__prefooter__content__sayhello__form__p{
 	color: white;
 	margin-bottom: 60px;
 }
@@ -520,10 +494,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	color:burlywood;
 	padding-left: 10px;
 }
-
-
+/*--------------------FOOTER-----------------------------------------------------*/
 .footer{
-	display: flex;
+	/*display: flex;
+	flex-direction:column;*/
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 }
@@ -532,7 +506,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	flex-direction: column;
 	justify-content: center;
 	max-width: 1920px;
-	height: 360px;
+	height: 400px;
 	background-color: rgb(255, 255, 255);
 }
 .footer__content__p{
@@ -571,10 +545,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	color: burlywood;
 }
 
-/*-------------------------------------------------------------------------Media*/
-/*----max-width: 400px*/
-/*--------min-width: 1200px---------------*/
-@media (max-width: 991px){
+/*------------------------ADAPTIVE---------------------------------------------------------------------*/
+@media (max-width: 990px){
 	.header_content{
 		display: flex;
 		flex-direction: column;
@@ -585,6 +557,9 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.header_content__navigation{
 		width:100%; 
 	}
+	.items{
+	font-size: 20px;
+}
 	.main__skills__content{
 		display: flex;
 		flex-wrap: wrap;
@@ -607,57 +582,47 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.main__more__content__card-1{
 		width: 50%;
 		background-color: rgb(210, 105, 30);
+		height: 400px;
 	}
 	.main__more__content__card-2{
 		width: 50%;
 		background-color:rgb(218, 165, 32);
+		height: 400px;
 	}
 	.main__more__content__card-3{
 		width: 50%;
+		height: 400px;
 	}
 	.main__more__content__card-4{
 		width: 50%;
+		height: 400px;
 	}
 	.main__prefooter__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
+		max-width: 100%;
 	}
-	.main__prefooter__content__sayhello{
-		display: flex;
-		width: 100%;
-		justify-content: center;
+	.main__prefooter__content__contacts__text{
+		padding-right: 20px;
 	}
-	.main__prefooter__content__picture{
-		min-width: 50%;
+	.main__prefooter__content__contacts__links{
+		padding-right: 20px;
 	}
-	.main__prefooter__content__contacts{
-		min-width: 50%;
-	}
-	.footer__content{
-		position: absolute;  
-		top: 830%;
-		width: 100%;
-		height: 300px;
+	.footer__content__p{
+		margin-left: 250px;
 	}
 	.footer__content__links{
 	margin-left: 350px;
 	}
-	.footer__content__p{
-	margin-left: 250px;
-	}
 }
-@media (max-width: 767px){
-	.header_content{
-		display: flex;
-		flex-direction: column;
-	}
+@media (max-width: 768px){
 	.header_content__picture{
 		width: 100%;
 	}
 	.header_content__navigation{
 		width:100%; 
 	}
+	.items{
+	font-size: 20px;
+}
 	.main__skills__content{
 		display: flex;
 		flex-wrap: wrap;
@@ -692,291 +657,219 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 50%;
 	}
 	.main__prefooter__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__prefooter__content__sayhello{
-		display: flex;
-		width: 100%;
-		justify-content: center;
-	}
-	.main__prefooter__content__picture{
-		min-width: 50%;
-	}
-	.main__prefooter__content__contacts{
-		min-width: 50%;
-	}
-	.main__experiences__content__picture{
-	max-width: 50%;
-	height: 500px;
-	}
-	.main__experiences__content__inform{
-	max-width: 50%;
-	height: 500px;
-	}
-	.main__education__content__picture{
-	max-width: 50%;
-	height: 500px;
-	}
-	.main__education__content__inform{
-	max-width: 50%;
-	height: 500px;
-	}
-	.footer__content{
-		position: absolute;  
-		top: 860%;
-		width: 100%;
-		height: 300px;
-	}
-	.footer__content__links{
-	margin-left: 280px;
-	}
-	.footer__content__p{
-	margin-left: 180px;
-	}
-}
-@media (max-width: 600px){
-	.header_content{
-		display: flex;
-		flex-direction: column;
-	}
-	.header_content__picture{
 		max-width: 100%;
-		height: 400px;
 	}
-	.header_content__navigation{
-		width:100%; 
-		height: 590px;
-	}
-	.header_content__navigation__ul{
-		margin-bottom: 0px;
-	}
-	.header_content__navigation__h1{
-		
-		margin-top: 40px;
-		display: flex;
-		justify-content: center;
-	}
-	.header_content__navigation__ul__item1,.header_content__navigation__ul__item2,
-.header_content__navigation__ul__item3,.header_content__navigation__ul__item4,
-.header_content__navigation__ul__item5{
-	display:block;
-	margin-top: 20px;
-	display: flex;
-	justify-content: center;
-	font-size: 15px;
-}
-	
-	.main__skills__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__skills__content__text{
-		width: 100%;
-	}
-	.main__skills__content__picture{
-		width: 100%;
-	}
-	.main__skills__content__levels{
-		width: 100%;
-	}
-	.main__more__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__more__content__card-1{
-		width: 50%;
-		background-color: rgb(0,0,0);
-	}
-	.main__more__content__card-2{
-		width: 50%;
-		background-color:rgb(218, 165, 32);
-	}
-	.main__more__content__card-3{
-		width: 50%;
-		background-color: rgb(210, 105, 30);
-	}
-	.main__more__content__card-4{
-		width: 50%;
-	}
-	.main__prefooter__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__prefooter__content__sayhello{
-		display: flex;
-		width: 100%;
-		justify-content: center;
-	}
-	.main__prefooter__content__picture{
-		min-width: 50%;
-	}
-	.main__prefooter__content__contacts{
-		min-width: 50%;
-	}
-	.main__experiences__content__picture{
-	max-width: 50%;
-	height: 560px;
-	}
-	.main__experiences__content__inform{
-	max-width: 50%;
-	height: 560px;
-	}
-	.main__education__content__picture{
-	max-width: 50%;
-	height: 560px;
-	}
-	.main__education__content__inform{
-	max-width: 50%;
-	height: 560px;
-	}
-	.footer__content{
-		position: absolute;  
-		top: 830%;
-		width: 100%;
-		height: 300px;
-	}
-	.footer__content__links{
-	margin-left: 200px;
-	}
-	.footer__content__p{
-	margin-left: 80px;
-	}
-}
-@media (max-width: 400px){
-	.header_content{
-		display: flex;
-		flex-direction: column;
-	}
-	.header_content__picture{
-		max-width: 100%;
-		height: 400px;
-	}
-	.header_content__navigation{
-		width:100%; 
-		height: 650px;
-		
-	}
-	.header_content__navigation__ul{
-		margin-bottom: 0px;
-	}
-	.header_content__navigation__h1{
-		
-		margin-top: 40px;
-		display: flex;
-		justify-content: center;
-	}
-	.header_content__navigation__p{
-		margin-left: 15px;
-	}
-	.header_content__navigation__h3{
-		margin-left: 15px;
-	}
-.header_content__navigation__ul__item1,.header_content__navigation__ul__item2,
-.header_content__navigation__ul__item3,.header_content__navigation__ul__item4,
-.header_content__navigation__ul__item5{
-	display:block;
-	margin-top: 20px;
-	display: flex;
-	justify-content: center;
-	font-size: 15px;
-}
-	
-	.main__skills__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__skills__content__text{
-		width: 100%;
-	}
-	.main__skills__content__picture{
-		width: 100%;
-	}
-	.main__skills__content__levels{
-		width: 100%;
-	}
-	.main__more__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.main__more__content__card-1{
-		width: 100%;
-		background-color: rgb(0,0,0);
-	}
-	.main__more__content__card-2{
-		width: 100%;
-		background-color:rgb(218, 165, 32);
-	}
-	.main__more__content__card-3{
-		width: 100%;
-		background-color: rgb(210, 105, 30);
-	}
-	.main__more__content__card-4{
-		width: 100%;
-	}
-	.main__prefooter__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	
-	.main__prefooter__content__sayhello{
-		display: flex;
-		width: 100%;
-		justify-content: center;
-	}
-	.main__prefooter__content__picture{
-		min-width: 50%;
-	}
-	.main__prefooter__content__contacts{
-		min-width: 50%;
+	.main__prefooter__content__contacts__text{
+		padding-right: 20px;
 	}
 	.main__prefooter__content__contacts__links{
-		padding-left: 13px;
-	}
-	.main__experiences__content{
-		display: flex;
-		flex-direction: column;
-	}
-	.main__education__content{
-		display: flex;
-		flex-direction: column-reverse;
-	}
-	.main__experiences__content__picture{
-	max-width: 100%;
-	height: 450px;
-	}
-	.main__experiences__content__inform{
-	max-width: 100%;
-	height: 450px;
-	}
-	.main__education__content__picture{
-	max-width: 100%;
-	height: 450px;
-	}
-	.main__education__content__inform{
-	max-width: 100%;
-	height: 450px;
+		padding-right: 20px;
 	}
 	.footer__content{
-		position: absolute;  
-		top: 1080%;
-		width: 100%;
-		height: 300px;
-	}
-	.footer__content__links{
-	margin-left: 100px;
+	max-width: 100%;
 	}
 	.footer__content__p{
-	margin-left: 80px;
+		margin-left: 250px;
+	}
+	.footer__content__links{
+	margin-left: 350px;
 	}
 }
+@media (max-width: 414px){
+	.header_content__picture{
+		width: 100%;
+	}
+	.header_content__navigation{
+		width:100%; 
+	}
+	.items{
+	font-size: 30px;
+}
+	.main__skills__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.header_content__navigation__get-started{
+	font-size: 25px;
+	margin-top: 0px;
+}
+.header_content__navigation__welcome-message{
+	font-size: 30px;
+}
+.header_content__navigation__hello-massage{
+	font-weight: 100;
+	font-size: 40px;
+}
+.header_content__navigation__paragr{
+	font-size: 30px;
+}
+	.main__skills__content__text__paragr-brown,
+.main__skills__content__text__paragr-gray,
+.main__skills__content__text__header{
+	font-size: 25px;
+}
+.main__skills__content__text__header{
+	font-size: 35px;
+}
+	.main__skills__content__text{
+		width: 100%;
+	}
+	.main__skills__content__picture{
+		width: 100%;
+	}
+	.main__skills__content__levels{
+		width: 100%;
+	}
+	.progress-line{
+	width: 90%;
+}
+.progress-name{
+	font-size: 20px;
+}
 
+	.main__more__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.main__more__content__card-1{
+		width: 50%;
+		background-color: rgb(210, 105, 30);
+	}
+	.main__more__content__card-2{
+		width: 50%;
+		background-color:rgb(218, 165, 32);
+	}
+	.main__more__content__card-3{
+		width: 50%;
+	}
+	.main__more__content__card-4{
+		width: 50%;
+	}
+	.main__more__content__card__text-1,.main__more__content__card__text-2,
+.main__more__content__card__text-3,.main__more__content__card__text-4{
+	font-size: 20px;
+}
+	.main__prefooter__content{
+		max-width: 100%;
+	}
+	.main__prefooter__content__contacts__text{
+		padding-right: 20px;
+	}
+	.main__prefooter__content__contacts__links{
+		padding-right: 20px;
+	}
+	.footer__content{
+	max-width: 100%;
+	}
+	.footer__content__p{
+		margin-left: 250px;
+	}
+	.footer__content__links{
+	margin-left: 350px;
+	}
+}
+@media (max-width: 320px){
+	.header_content__picture{
+		width: 100%;
+	}
+	.header_content__navigation{
+		width:100%; 
+	}
+	.items{
+	font-size: 30px;
+}
+	.main__skills__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.header_content__navigation__get-started{
+	font-size: 25px;
+	margin-top: 0px;
+}
+.header_content__navigation__welcome-message{
+	font-size: 30px;
+}
+.header_content__navigation__hello-massage{
+	font-weight: 100;
+	font-size: 40px;
+}
+.header_content__navigation__paragr{
+	font-size: 30px;
+}
+	.main__skills__content__text__paragr-brown,
+.main__skills__content__text__paragr-gray,
+.main__skills__content__text__header{
+	font-size: 25px;
+}
+.main__skills__content__text__header{
+	font-size: 35px;
+}
+	.main__skills__content__text{
+		width: 100%;
+	}
+	.main__skills__content__picture{
+		width: 100%;
+	}
+	.main__skills__content__levels{
+		width: 100%;
+	}
+	.progress-line{
+	width: 90%;
+}
+.progress-name{
+	font-size: 20px;
+}
 
-
+	.main__more__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.main__more__content__card-1{
+		width: 100%;
+		background-color: rgb(210, 105, 30);
+	}
+	.main__more__content__card-2{
+		width: 100%;
+		background-color:rgb(218, 165, 32);
+	}
+	.main__more__content__card-3{
+		width: 100%;
+	}
+	.main__more__content__card-4{
+		width: 100%;
+	}
+	.main__more__content__card__text-1,.main__more__content__card__text-2,
+.main__more__content__card__text-3,.main__more__content__card__text-4{
+	font-size: 30px;
+}
+	.main__prefooter__content{
+		max-width: 100%;
+	}
+.main__prefooter__content__sayhello__form__p{
+		font-size: 25px;
+}
+	.main__prefooter__content__sayhello__form__textarea_message{	
+	height: 50px;
+}
+	.main__prefooter__content__contacts__text{
+		padding-right: 20px;
+	}
+	.main__prefooter__content__contacts__links{
+		padding-right: 20px;
+	}
+	.footer__content{
+	max-width: 100%;
+	}
+	.footer__content__p{
+		margin-left: 250px;
+		font-size: 20px;
+	}
+	.footer__content__links{
+	margin-left: 350px;
+		font-size: 20px;
+	}
+}
