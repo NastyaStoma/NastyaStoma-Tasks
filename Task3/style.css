@@ -266,7 +266,7 @@ background: rgb(0,0,0);
 	display: flex;
 	flex-direction: row;
 }
-.main__experiences__content__picture{
+.experiences__picture{
 	min-width: 50%;
 	height: 400px;
 	background-size: cover;
@@ -373,7 +373,7 @@ background: rgb(0,0,0);
 }
 /*----------BODY:testimonial-line---------------------------------------------------------------*/
 .main__prefooter{
-	display: flex;
+	/*display: flex;*/
 	max-width: 1920px;
 }
 .prefooter__content{
@@ -389,7 +389,6 @@ background: rgb(0,0,0);
 	flex-direction:column;
 	padding-left: 30px;
 	padding-right: 30px;
-	
 }
 .prefooter__headline{
 	font-weight: 100;
@@ -753,11 +752,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.header--stimulus{
 	padding-left: 40px;
-	padding-top: 30px;
+	padding-top: 60px;
 	}
 	.header__navigation{
 		width:100%; 
-		background-color:aqua;
 	}
 	.items{
 		font-size: 13px;
@@ -798,7 +796,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
+		font-size: 19px;
 	}
 	.skills__picture{
 		width: 100%;
@@ -807,8 +805,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 100%;
 	}
 	.skills__levels--all-skills{
-	padding-left: 30px;
-	font-size: 20px;
+		padding-left: 30px;
+		font-size: 20px;
 	}
 	.progress-name{
 		font-size: 17px;
@@ -839,25 +837,71 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 		font-size: 18px;
 	}
+	.education__picture{
+		height: 750px;
+	}
+	.education__inform{
+		height: 750px;
+	}
+	.experiences__picture{
+		height: 750px;
+	}
+	.experiences__inform{
+		height: 750px;
+	}
 	.prefooter__content{
 		display: flex;
-		flex-direction:column;
-		justify-content: flex-start;
 	}
 	.prefooter__sayhello{
-		width: 100%;
+		width: 50%;
+		height: 660px;
+		background-color: rgb(210, 105, 30);
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.prefooter__button--send{
+		font-size: 16px;
+		padding-right: 80px;
+		padding-left: 80px;
+		margin-left: 0px;
+	}
+	.prefooter__input--email{
+		background-color: rgb(210, 105, 30);
+		border-bottom-color: white;
+		border-top: none;
+		border-right: none;
+		border-left:  none;
+		width: 99%;
+		margin-bottom: 10px;	
+		padding-bottom: 10px;
+	}
+	.prefooter__textarea--message{
+		background-color: rgb(210, 105, 30);
+		border-bottom-color: white;
+		border-top: none;
+		border-right: none;
+		border-left:  none;
+		width: 97%;
+		margin-bottom: 30px;	
+		height: 130px;
 	}
 	.prefooter__picture{
-		width: 100%
+		display: none;
 	}
 	.prefooter__contacts{
-		width: 100%
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		max-width: 183px;
 	}
 	.prefooter__contacts--text{
 		padding-left: 20px;
 	}
 	.prefooter__links{
 		padding-left: 20px;
+	}
+	.footer__content{
+		height: 200px;
 	}
 	.footer__text{
 		margin-left: 20px;
@@ -868,42 +912,62 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 20px;
 	}
 }
-/*@media (max-width: 320px){
+@media (max-width: 320px){
+	.header__content{
+		display: flex;
+		flex-direction: column;
+	}
 	.header__picture{
 		width: 100%;
+		height: 500px;
+	}
+	.header--stimulus{
+	padding-left: 40px;
+	padding-top: 60px;
 	}
 	.header__navigation{
 		width:100%; 
 	}
 	.items{
-	font-size: 30px;
+		font-size: 13px;
+		margin-right:2px;
+		padding: 0;
 	}
-	.main__skills__content{
-		display: flex;
-		flex-wrap: wrap;
-		align-content: flex-start;
-	}
-	.header__get-started{
-	font-size: 25px;
-	margin-top: 0px;
+	.header__links{
+		height: 70px;
+		background-color: antiquewhite;
+		position: fixed;
+		width: 100%;
+		top:0;
+		margin-top:0;
+		box-shadow: 0px 0px 4px rgb(0,0,0);
 	}
 	.header__welcome-message{
 		font-size: 30px;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.header__paragr{
-		font-size: 30px;
+		font-size: 25px;
+	}
+	.header__get-started{
+		font-size: 25px;
+		margin-top: 0px;
+	}
+	.main__skills__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.skills__text{
+		width: 100%;
 	}
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
-	}
-	.skills__text{
-		width: 100%;
+		font-size: 19px;
 	}
 	.skills__picture{
 		width: 100%;
@@ -911,11 +975,12 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__levels{
 		width: 100%;
 	}
-	.progress-line{
-	width: 90%;
+	.skills__levels--all-skills{
+		padding-left: 30px;
+		font-size: 20px;
 	}
 	.progress-name{
-		font-size: 20px;
+		font-size: 17px;
 	}
 	.main__more__content{
 		display: flex;
@@ -925,52 +990,96 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.more__card--one{
 		width: 100%;
 		background-color: rgb(210, 105, 30);
+		height: 400px;
 	}
 	.more__card--two{
 		width: 100%;
 		background-color:rgb(218, 165, 32);
+		height: 400px;
 	}
 	.more__card--three{
 		width: 100%;
+		height: 400px;
 	}
 	.more__card--four{
 		width: 100%;
+		height: 400px;
 	}
-	.card__text--one,.card__text--two,
-	.card__text--three,.card__text--four{
-	font-size: 30px;
+	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+		font-size: 18px;
 	}
-	.prefooter__content{
-		max-width: 100%;
-	}
-	.prefooter__paragr{
-		font-size: 25px;
-	}
-	.prefooter__textarea--message{	
-	height: 50px;
-	}
-	.prefooter__contacts--text{
-		padding-right: 20px;
-	}
-	.prefooter__inks{
-		padding-right: 20px;
-	}
-	.footer__content{
-	max-width: 100%;
-	}
-	.footer__text{
-		margin-left: 250px;
-		font-size: 20px;
-	}
-	.footer__links{
-	margin-left: 350px;
-		font-size: 20px;
-	}
-	.main__experiences__content__picture,.education__picture{
-	min-width: 50%;
-	height: 750px;
-	}
-	.experiences__inform,.education__inform{
+	.education__picture{
 		height: 750px;
 	}
-}*/
+	.education__inform{
+		height: 750px;
+	}
+	.experiences__picture{
+		height: 750px;
+	}
+	.experiences__inform{
+		height: 750px;
+	}
+	.prefooter__content{
+		display: flex;
+	}
+	.prefooter__sayhello{
+		width: 50%;
+		height: 660px;
+		background-color: rgb(210, 105, 30);
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.prefooter__button--send{
+		font-size: 16px;
+		padding-right: 80px;
+		padding-left: 80px;
+		margin-left: 0px;
+	}
+	.prefooter__input--email{
+		background-color: rgb(210, 105, 30);
+		border-bottom-color: white;
+		border-top: none;
+		border-right: none;
+		border-left:  none;
+		width: 99%;
+		margin-bottom: 10px;	
+		padding-bottom: 10px;
+	}
+	.prefooter__textarea--message{
+		background-color: rgb(210, 105, 30);
+		border-bottom-color: white;
+		border-top: none;
+		border-right: none;
+		border-left:  none;
+		width: 97%;
+		margin-bottom: 30px;	
+		height: 130px;
+	}
+	.prefooter__picture{
+		display: none;
+	}
+	.prefooter__contacts{
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		max-width: 183px;
+	}
+	.prefooter__contacts--text{
+		padding-left: 20px;
+	}
+	.prefooter__links{
+		padding-left: 20px;
+	}
+	.footer__content{
+		height: 200px;
+	}
+	.footer__text{
+		margin-left: 20px;
+		text-align: center;
+	}
+	.footer__links{
+		text-align: center;
+		margin-left: 20px;
+	}
+}
