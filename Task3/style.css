@@ -741,6 +741,110 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 20px;
 	}
 }
+@media (min-width: 667px){
+	.header__content{
+		display: flex;
+		flex-direction: column;
+	}
+	.header__picture{
+		width: 100%;
+	}
+	.header__navigation{
+		width:100%; 
+	}
+	.items{
+		font-size: 16px;
+	}
+	.header__welcome-message{
+		font-size: 30px;
+	}
+	.header__hello-massage{
+		font-weight: 100;
+		font-size: 30px;
+	}
+	.header__paragr{
+		font-size: 25px;
+	}
+	.header__get-started{
+		font-size: 25px;
+		margin-top: 0px;
+	}
+	.main__skills__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.skills__text{
+		width: 100%;
+	}
+	.skills__text--brown,
+	.skills__text--gray,
+	.skills__text--header{
+		font-size: 25px;
+	}
+	.skills__picture{
+		width: 50%;
+	}
+	.skills__levels{
+		width: 50%;
+	}
+	.skills__levels--all-skills{
+	padding-left: 30px;
+	font-size: 20px;
+	}
+	.progress-name{
+		font-size: 17px;
+	}
+	.main__more__content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.more__card--one{
+		width: 50%;
+		background-color: rgb(210, 105, 30);
+		height: 400px;
+	}
+	.more__card--two{
+		width: 50%;
+		background-color:rgb(218, 165, 32);
+		height: 400px;
+	}
+	.more__card--three{
+		width: 50%;
+		height: 400px;
+	}
+	.more__card--four{
+		width: 50%;
+		height: 400px;
+	}
+	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	font-size: 18px;
+	}
+	.education__picture,.experiences__picture{
+		height: 750px;
+	}
+	.education__inform,.experiences__inform{
+		height: 750px;
+	}
+	.prefooter__content{
+		max-width: 100%;
+	}
+	.prefooter__contacts--text{
+		padding-left: 0px;
+	}
+	.prefooter__links{
+		padding-left: 11px;
+	}
+	.footer__text{
+		margin-left: 20px;
+		text-align: center;
+	}
+	.footer__links{
+		text-align: center;
+		margin-left: 20px;
+	}
+}
 @media (max-width: 414px){
 	.header__content{
 		display: flex;
@@ -892,7 +996,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 100%;
 		padding: 0px;
 		margin: 0px;
-		max-width: 183px;
+		/*max-width: 183px;*/
+		max-width:50%;
 	}
 	.prefooter__contacts--text{
 		padding-left: 20px;
@@ -912,7 +1017,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		margin-left: 20px;
 	}
 }
-@media (max-width: 320px){
+@media (max-width: 375px){
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -923,22 +1028,25 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.header--stimulus{
 	padding-left: 40px;
-	padding-top: 60px;
+	padding-top: 70px;
 	}
 	.header__navigation{
 		width:100%; 
+		background-color: aqua;
 	}
 	.items{
-		font-size: 13px;
+		font-size: 11px;
 		margin-right:2px;
 		padding: 0;
+		margin: 3px;
 	}
 	.header__links{
-		height: 70px;
+		height: 60px;
 		background-color: antiquewhite;
 		position: fixed;
 		width: 100%;
 		top:0;
+		margin-left: -20px;
 		margin-top:0;
 		box-shadow: 0px 0px 4px rgb(0,0,0);
 	}
@@ -1031,9 +1139,9 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		padding-right: 5px;
 	}
 	.prefooter__button--send{
-		font-size: 16px;
-		padding-right: 80px;
-		padding-left: 80px;
+		font-size: 13px;
+		padding-right: 60px;
+		padding-left: 60px;
 		margin-left: 0px;
 	}
 	.prefooter__input--email{
@@ -1053,7 +1161,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		border-right: none;
 		border-left:  none;
 		width: 97%;
-		margin-bottom: 30px;	
+		margin-bottom: 10px;	
 		height: 130px;
 	}
 	.prefooter__picture{
@@ -1063,7 +1171,13 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 100%;
 		padding: 0px;
 		margin: 0px;
-		max-width: 183px;
+		/*max-width: 183px;*/
+		max-width:50%;
+	}
+	.prefooter__links{
+		padding: 0px;
+		font-size: 14px;
+		
 	}
 	.prefooter__contacts--text{
 		padding-left: 20px;
