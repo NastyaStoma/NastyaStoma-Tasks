@@ -101,156 +101,1215 @@
 .header{
 	height: 260px;
 	width: 100%;
+	
 }
 .header__ul
 {
 	text-decoration: none;
-	transform:skewX(20deg);
 	transform:skewY(-2deg);
+	padding-left: 5px;
+	 display: flex;    
+    flex-wrap: wrap;
+    align-items: center;
+	margin-top: -15px;
 }
-
 .header__background{
 	background-color:floralwhite;
 	height: 260px;
 	width: 100%;
+	overflow: hidden;
 }
-
 .header__p{
 	z-index: 3;
 	font-size: 30px;
 	position:absolute;
 	margin-left: 500px;
-	margin-top: 120px;
+	margin-top: 100px;
 	background-color:white;
 	padding: 15px;
 	color:dimgray;
 	font-family:'Condiment';
 	font-style:normal;
+	border-style:solid;
 }
-
 li{
 	display:inline-block;
-	margin: 20px;
+	margin: 10px;
 }
-.header__img1{
-    width: 84px;
-	height: 84px;
+.header__img01{
     background: url("spice-social-gadget-sprite.png") 0px;
-	border-radius: 20px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img02{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img03{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img04{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img05{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img06{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img07{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img08{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img09{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img010{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img011{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img1{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img2{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -84px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img3{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -168px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img4{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -336px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img5{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -672px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img6{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -1344px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img7{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -2688px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img8{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -5376px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img9{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -10752px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img10{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -21504px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img11{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -43008px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 
 .header__img12{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") 43008px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img13{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -84px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img14{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -168px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img15{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -336px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img16{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -672px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img17{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -1344px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img18{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -2688px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img19{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -5376px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 .header__img20{
-    width: 84px;
-	height: 84px;
-    background: url("spice-social-gadget-sprite.png") -10752px;
-	border-radius: 20px;
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img21{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img22{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
 }
 
+.header__img23{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img24{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img25{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img26{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img27{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img28{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img29{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img30{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img31{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img32{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img33{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img34{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img35{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img36{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img37{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img38{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img39{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img40{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img41{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img42{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img43{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img44{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-right: 0px;
+}
+
+.header__img46{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-left: 0px;
+}
+.header__img47{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img48{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img49{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img50{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img51{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img52{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img53{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img54{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img55{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img56{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img57{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img58{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img59{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img60{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img61{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img62{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img63{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img64{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img65{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img66{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img67{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img68{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img69{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img70{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img71{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img72{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img73{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img74{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img75{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-right: 0px;
+}
+.header__img75{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img77{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-left: 0px;
+}
+.header__img78{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img79{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img80{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img81{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img82{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img83{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img84{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img85{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img86{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img87{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img88{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img89{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img90{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img91{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img92{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img93{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img94{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img95{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img96{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img97{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img98{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img99{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img100{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img101{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img102{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img103{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img104{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img104{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-right: 0px;
+}
+.header__img106{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	margin-left: 0px;
+}
+.header__img107{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img108{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img109{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img110{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img111{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img112{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img113{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img114{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img115{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img116{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img117{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img118{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img119{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img120{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img121{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img122{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img123{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img124{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img125{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img126{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img127{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img128{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img129{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img130{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img131{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	
+}
+.header__img132{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+	
+}
+.header__img133{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img134{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img135{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img136{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img137{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img138{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img139{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img140{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img141{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img142{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img143{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img144{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+
+.header__img145{
+    background: url("spice-social-gadget-sprite.png") 0px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img146{
+    background: url("spice-social-gadget-sprite.png") -30px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img147{
+    background: url("spice-social-gadget-sprite.png") -60px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img148{
+    background: url("spice-social-gadget-sprite.png") -120px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img149{
+    background: url("spice-social-gadget-sprite.png") -240px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img150{
+    background: url("spice-social-gadget-sprite.png") -480px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img151{
+    background: url("spice-social-gadget-sprite.png") -960px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img152{
+    background: url("spice-social-gadget-sprite.png") -1920px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img153{
+    background: url("spice-social-gadget-sprite.png") -3840px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img154{
+    background: url("spice-social-gadget-sprite.png") -7680px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
+.header__img155{
+    background: url("spice-social-gadget-sprite.png") -15360px;
+	border-radius: 5px;
+    background-size: 1100%;
+    width: 30px;
+    height: 30px;
+}
