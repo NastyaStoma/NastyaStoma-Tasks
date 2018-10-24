@@ -4,7 +4,6 @@ body{
 h1{
 	text-align: center;
 	font-size: 40px;
-	/*text-shadow: 3px 3px 10px ; */
 	color: black;
 	letter-spacing: 10px;
 	word-spacing: 15px;
@@ -24,11 +23,6 @@ span{
 	font-weight: 200;
 	font-size: 23px;
 }
-/*h1:hover{
-	letter-spacing: 40px;
-	word-spacing: 10px;
-	font-size: 30px;
-}*/
 a{
 	text-decoration: none;
 	color:black;
@@ -56,6 +50,12 @@ p::first-letter{
 #link:hover{
 	color:burlywood;
 }
+#navig:hover{
+	color:burlywood;
+	letter-spacing: 8px;
+	font-size: 20px;
+	
+}
 h2{
 	font-size: 23px;
 	color:black;
@@ -63,6 +63,12 @@ h2{
 	font-weight: 200;
 	margin-top: 50px;
 }
-
-
+.back{
+	font-size: 20px;
+	font-family:bentham;
+	font-weight: 600;
+}
+.back:hover{
+	color:burlywood;
+}
 
