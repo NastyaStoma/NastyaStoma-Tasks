@@ -1,27 +1,28 @@
 .content--white{
 	background-color: white;
-	height: 260px;
+	height: 220px;
 	margin-right: 25px;
 	margin-left: 25px;
 	box-shadow: 0px 0px 1px 0px rgb(130, 130, 130);
 	margin-bottom: 15px;
 }
 .content--gray{
-	background-color:rgb(54, 54, 54);
-	height: 260px;
+	background-color:rgb(51, 51, 51);
+	height: 220px;
 	margin-right: 25px;
 	margin-left: 25px;
 }
 .content__buttons{
 	max-width: 30%;
 	padding-bottom: 10%;
-	padding-top: 6%;
+	padding-top: 4%;
 	margin-left: 5%;
 }
 .buttons__pink{
-	background-color: deeppink;
+	background-color: rgb(229,54,157);
+	background: linear-gradient(to top, rgb(231,32,149), rgb(232,84,171));
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 25px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -32,9 +33,9 @@
 	margin: 6px;
 }
 .buttons__green{
-	background-color: greenyellow;
+	background-color: rgb(166, 201, 57);
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 17px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -45,9 +46,9 @@
 	margin: 2px;
 }
 .buttons__blue{
-	background-color:blue;
+	background-color:rgb(74, 150, 237);
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 13px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -58,9 +59,9 @@
 	margin: 6px;
 }
 .buttons__red{
-	background-color:red;
+	background-color:rgb(232, 64, 64);
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 17px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -71,9 +72,9 @@
 	margin: 6px;
 }
 .buttons__orange{
-	background-color:orange;
+	background-color:rgb(255, 122, 42);
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 13px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -84,9 +85,9 @@
 	margin: 6px;
 }
 .buttons__yellow{
-	background-color:yellow;
+	background-color:rgb(255, 192, 58);
 	border: none;
-	border-radius: 3px;
+	border-radius: 4px;
 	color: white;
 	font-size: 13px;
 	box-shadow: 1px 1px 1px 0px rgb(0, 0, 0);
@@ -101,20 +102,21 @@
 .header{
 	height: 260px;
 	width: 100%;
-	
 }
 .header__ul
 {
 	text-decoration: none;
-	transform:skewY(-2deg);
+	transform:skewX(15deg);
+	transform: rotate(-3deg);
 	padding-left: 5px;
 	 display: flex;    
     flex-wrap: wrap;
     align-items: center;
-	margin-top: -15px;
+	margin-top: -25px;
+	margin-left: 20px;
 }
 .header__background{
-	background-color:floralwhite;
+	background-color:rgb(244,243,242);
 	height: 260px;
 	width: 100%;
 	overflow: hidden;
@@ -123,14 +125,16 @@
 	z-index: 3;
 	font-size: 30px;
 	position:absolute;
-	margin-left: 500px;
+	margin-left: 550px;
 	margin-top: 100px;
-	background-color:white;
+	background-color:rgb(244,243,242);
 	padding: 15px;
-	color:dimgray;
+	color:black;
 	font-family:'Condiment';
 	font-style:normal;
-	border-style:solid;
+	/*border-style:solid;*/
+	outline: 7px solid rgb(244,243,242);;
+	border: 4px solid #000;
 }
 li{
 	display:inline-block;
@@ -142,6 +146,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img02{
     background: url("spice-social-gadget-sprite.png") -30px;
@@ -149,6 +154,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img03{
     background: url("spice-social-gadget-sprite.png") -60px;
@@ -312,6 +318,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img15{
     background: url("spice-social-gadget-sprite.png") -120px;
@@ -319,6 +326,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img16{
     background: url("spice-social-gadget-sprite.png") -240px;
@@ -326,6 +334,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img17{
     background: url("spice-social-gadget-sprite.png") -480px;
@@ -333,6 +342,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img18{
     background: url("spice-social-gadget-sprite.png") -960px;
@@ -503,6 +513,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img42{
     background: url("spice-social-gadget-sprite.png") -3840px;
@@ -510,6 +521,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img43{
     background: url("spice-social-gadget-sprite.png") -7680px;
@@ -517,6 +529,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img44{
     background: url("spice-social-gadget-sprite.png") -15360px;
@@ -525,6 +538,7 @@ li{
     width: 30px;
     height: 30px;
 	margin-right: 0px;
+	margin-top: -15px;
 }
 
 .header__img46{
@@ -690,6 +704,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img69{
     background: url("spice-social-gadget-sprite.png") -30px;
@@ -697,6 +712,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img70{
     background: url("spice-social-gadget-sprite.png") -60px;
@@ -704,6 +720,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img71{
     background: url("spice-social-gadget-sprite.png") -120px;
@@ -711,6 +728,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img72{
     background: url("spice-social-gadget-sprite.png") -240px;
@@ -883,6 +901,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img96{
     background: url("spice-social-gadget-sprite.png") -960px;
@@ -890,6 +909,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img97{
     background: url("spice-social-gadget-sprite.png") -1920px;
@@ -897,6 +917,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img98{
     background: url("spice-social-gadget-sprite.png") -3840px;
@@ -904,6 +925,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img99{
     background: url("spice-social-gadget-sprite.png") -7680px;
@@ -1076,6 +1098,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 
 .header__img123{
@@ -1084,6 +1107,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img124{
     background: url("spice-social-gadget-sprite.png") -30px;
@@ -1091,6 +1115,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img125{
     background: url("spice-social-gadget-sprite.png") -60px;
@@ -1098,6 +1123,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img126{
     background: url("spice-social-gadget-sprite.png") -120px;
@@ -1263,6 +1289,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img149{
     background: url("spice-social-gadget-sprite.png") -240px;
@@ -1270,6 +1297,7 @@ li{
     background-size: 1100%;
     width: 30px;
     height: 30px;
+	margin-top: -15px;
 }
 .header__img150{
     background: url("spice-social-gadget-sprite.png") -480px;
