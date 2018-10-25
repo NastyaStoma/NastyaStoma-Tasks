@@ -1,550 +1,4 @@
-body{
-    padding: 0;
-    margin: 0;
-	display: flex;
-	flex-direction: column; 
-	height: 100%;
-}
-/*--------------------HEADER-----------------------------------------------------*/
-.items{
-	text-decoration: none;
-	display:inline-block;
-	text-transform: uppercase;
-	margin-left: 35px;
-	font-size: 13px;
-	font-family:sans-serif;
-	font-weight: 600;
-	margin-top: 15px;
-}
-.header{
-	/*display: flex;*/
-	font-family: 'Lato', sans-serif;
-}
-.header__content{
-	display: flex;
-	max-width: 1920px;
-}
-.header__picture{
-	width: 50%;
-	height: 820px;
-	background-size: cover;
-	background-position: center;
-	background-image:url(images/home-img.jpg);
-}
-.header--stimulus{
-	padding-left: 170px;
-	padding-top: 10px;
-	font-weight: 700;
-	color: black;
-	text-shadow: 1px 1px 0px rgb(255,255,255);
-	font-size: 20px;
-}
-.header__navigation{
-	width: 50%;
-	height: 820px;
-	background-color: rgb(238, 213, 210);
-}
-.links{
-	text-decoration: none;
-	color: black;
-}
-.links:hover{
-	color: burlywood;
-}
-.header__get-started{
-	text-transform: uppercase;
-	font-size: 13px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 50px;
-	padding-left: 50px;
-	border-radius: 100px;
-	background-color: rgb(238, 213, 210);
-	color: black;
-	font-weight: 600;
-	font-family: 'Lato', sans-serif;
-	border-color: black;
-	margin-left: 40px;
-	margin-top: 60px;
-}
-.header__welcome-message{
-	font-size: 12px;
-	text-transform: uppercase;
-	color: gray;
-	font-weight: 100;
-	margin-left: 40px;
-	margin-top: 195px;
-}
-.header__hello-massage{
-	font-weight: 100;
-	font-size: 33px;
-	margin-left: 40px;
-	width: 90%;
-}
-.header__paragr{
-	font-size: 15px;
-	color: gray;
-	font-weight: 100;
-	margin-left: 40px;
-	width: 90%;
-}
-/*--------------------BODY-----------------------------------------------------*/
-.main{
-	/*display: flex;
-	flex-direction:column;*/
-	font-family: 'Lato', sans-serif;
-}
-/*----------BODY:skills-line---------------------------------------------------------------*/
-.main__skills{
-	display: flex;
-}
-.main__skills__content{
-	max-width: 1920px;
-	display: flex;
-}
-.skills__text--brown,
-.skills__text--gray,
-.skills__text--header{
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.skills__text--header{
-	padding-top: 30px;
-	font-weight: 100;
-	font-size: 25px;
-}
-.skills__text--brown{
-	color: burlywood;
-}
-.skills__text{
-	width:50%;
-	height: 345px;
-	background-color: white; 
-}
-.skills__picture{
-	width: 25%;
-	height: 345px;
-	background-size: cover;
-	background-position: center;
-	background-image:url(images/about-img.jpg);
-}
-.skills__levels{
-	width: 25%;
-	height: 345px;
-	background-color: rgb(210, 105, 30);
-	display: flex;
-	flex-direction:column;
-}
-.skills__levels--header{
-	padding-top: 10px;
-	padding-left: 30px;
-	font-weight: 100;
-	font-size: 25px;
-	color: white;
-}
-.skills__levels--all-skills{
-	padding-left: 30px;
-	font-size: 14px;
-	color: white;
-	font-weight: 100;
-}
-progress{
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	border: none;
-	background-size: auto;
-}
-progress::-webkit-progress-bar {
-background: rgb(225,225,225);
-	height: 2px;
-}
-progress::-webkit-progress-value {
-background: rgb(0,0,0);
-	height: 2px;
-}
-.progress-line{
-	width: 80%;
-	margin-left: 30px;
-}
-.progress-num{
-	font-size: 15px;
-	padding-left: 30px;
-	font-weight: 600;
-	margin-bottom: 0px;
-	margin-top: 0px;
-	width: 40%;
-}
-.progress-name{
-	font-size: 13px;
-	padding-left: 30px;
-	font-weight: 600;
-	color: white;
-	padding-top: 0;
-	margin-top: 0;
-	width: 40%;
-}
-/*----------BODY:skills-cards---------------------------------------------------------------*/
-.main__more{
-	display: flex;
-}
-.main__more__content{
-	display: flex;
-	max-width: 1920px;
-	
-}
-.more__card--one{
-	width: 25%;
-	height: 340px;
-	background-color:rgb(218, 165, 32);
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	align-items: center;
-}
-.more__card--two{
-	width: 25%;
-	height: 340px;
-	background-color: rgb(210, 105, 30);
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	align-items: center;
-}
-.more__card--three{
-	width: 25%;
-	height: 340px;
-	background-color: rgb(0, 0, 0);
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	align-items: center;
-}
-.more__card--four{
-	width: 25%;
-	height: 340px;
-	background-color:white;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	align-items: center;
-}
-.card__text--two,.card__text--one{
-	text-align: center;
-	padding: 20px;
-}
-.card__text--three,.card__text--four{
-	text-align: center;
-	padding: 20px;
-}
-.fa-paper-plane,.fa-table,.fa-picture-o{
-	color: whitesmoke;
-	padding-top: 50px;
-}
-.fa-html5{
-	padding-top: 50px;
-}
-.card__headline--one,.card__headline--two,
-.card__headline--three{
-	color: white;
-}
-.card__text--one,.card__text--two,
-.card__text--three{
-	color: white;
-}
-/*----------BODY:experiences-line---------------------------------------------------------------*/
-.main__experiences{
-	display: flex;
-	max-width: 1920px;
-}
-.main__experiences__content{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-}
-.experiences__picture{
-	min-width: 50%;
-	height: 400px;
-	background-size: cover;
-	background-position: center;
-	background-image:url(images/experience-img.jpg);
-}
-.experiences__inform{
-	max-width: 50%;
-	height: 400px;
-	background-color: rgb(210, 105, 30);
-	display: flex;
-  	flex-direction: column;
-	align-items: flex-start;
-	padding-left: 30px;
-	color: whitesmoke;
-}
-/*----------BODY:education-line---------------------------------------------------------------*/
-.main__education{
-	display: flex;
-	max-width: 1920px;
-}
-.main__education__content{
-	width: 100%;
-	display: flex;
-}
-.education__picture{
-	min-width: 50%;
-	height: 400px;
-	background-size: cover;
-	background-position: center;
-	background-image:url(images/education-img.jpg);
-}
-.education__inform{
-	max-width: 50%;
-	height: 400px;
-	background-color: rgb(218, 165, 32);
-	display: flex;
-  	flex-direction: column;
-	align-items: flex-start;
-	color: whitesmoke;
-	padding-left: 30px;
-}
-.Education,.Experiences{
-	font-size: 30px;
-	font-weight: 100;
-	margin-bottom: 0;
-}
-.data{
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-start;
-}
-.fa-desktop{
-	color: whitesmoke;
-	padding-right: 20px;
-	padding-top: 10px;
-}
-.course-name{
-	font-size: 20px;
-	display: flex;
-  	flex-direction: row;
-	font-weight: 100;
-	justify-content: center;
-}
-.duration{
-	font-size: 10px;
-	color: rgb(28, 28, 28);
-	padding-top: 15px;
-	padding-left: 5px;
-}
-/*----------BODY:quoate(цитата)-line---------------------------------------------------------------*/
-.main__text{
-	display: flex;
-	background-image:url(images/quotes-bg.jpg);
-	max-width: 1920px;
-}
-.text__content{
-	width: 100%;
-	height: 400px;
-	background-size: cover;
-	background-position: center;
-	filter: alpha(Opacity=70); /* Прозрачность в IE */
-	background:rgba(0, 0, 0, 0.7);
-	display: flex;
-	justify-content: center;
-  	align-content: space-between;
-  	align-items: center;
-  	flex-direction: column;
-}
-.fa-star{
-	color: white;
-	text-align: center;
-}
-.text__content--headline{
-	color: white;
-	font-weight: 100;
-	max-width: 800px;
-	text-align: center;
-}
-.text__content--paragr{
-	color: whitesmoke;
-	font-weight: 100;
-	text-align: center;
-}
-/*----------BODY:testimonial-line---------------------------------------------------------------*/
-.main__prefooter{
-	/*display: flex;*/
-	max-width: 1920px;
-}
-.prefooter__content{
-	width: 100%;
-	display: flex;
-	height: 610px;
-}
-.prefooter__sayhello{
-	width: 50%;
-	height: 610px;
-	background-color: rgb(210, 105, 30);
-	display: flex;
-	flex-direction:column;
-	padding-left: 30px;
-	padding-right: 30px;
-}
-.prefooter__headline{
-	font-weight: 100;
-	font-size: 40px;
-	color: white;
-	margin-top: 50px;
-}
-.prefooter__paragr{
-	color: white;
-	margin-bottom: 60px;
-}
-input::-moz-placeholder { color: white; font-family: 'Lato', sans-serif; } /*Firefox*/
-textarea:-moz-placeholder { color: white; font-family: 'Lato', sans-serif; }
-input::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-serif;}/*Safari,Chrome*/
-textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-serif; }
-.prefooter__input--name{
-	background-color: rgb(210, 105, 30);
-	border-bottom-color: white;
-	border-top: none;
-	border-right: none;
-	border-left:  none;
-	width: 100%;
-	margin-bottom: 43px;
-	padding-bottom: 8px;
-}
-.prefooter__input--email{
-	background-color: rgb(210, 105, 30);
-	border-bottom-color: white;
-	border-top: none;
-	border-right: none;
-	border-left:  none;
-	width: 100%;
-	margin-bottom: 10px;	
-	padding-bottom: 40px;
-}
-.prefooter__textarea--message{
-	background-color: rgb(210, 105, 30);
-	border-bottom-color: white;
-	border-top: none;
-	border-right: none;
-	border-left:  none;
-	width: 100%;
-	margin-bottom: 30px;	
-	height: 130px;
-}
-.prefooter__button--send{
-	font-size: 18px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 100px;
-	padding-left: 100px;
-	border-radius: 20px;
-	border: none;
-	background-color: white;
-	color: black;
-	margin-left: 10px;
-	font-weight: 600;
-	font-family: 'Lato', sans-serif;
-}
-.prefooter__picture{
-	width: 25%;
-	height: 610px;
-	background-size: cover;
-	background-image:url(images/contact-img.jpg);
-	background-position: center;
-}
-.prefooter__contacts{
-	width: 25%;
-	height: 610px;
-	background-color: rgb(28, 28, 28);
-}
-.prefooter__contacts--text{
-	color: white;
-	margin-top: 50px;
-	font-weight: 100;
-	padding-left: 45px;
-}
-.prefooter__contacts--paragr{
-	color:gray;
-	margin-bottom: 50px;
-	padding-right: 20px;
-}
-.prefooter__links{
-	display: flex;
-	flex-direction: column;
-	padding-left: 45px;
-}
-.fa-phone,.fa-envelope-o,.fa-globe{
-	color:gray;
-	margin-bottom: 30px;
-}
-.prefooter__links--number{
-	text-decoration: none;
-	color: gray;
-	padding-left: 10px;
-}
-.prefooter__links--mail,
-.prefooter__links--site{
-	text-decoration: none;
-	color:burlywood;
-	padding-left: 10px;
-}
-/*--------------------FOOTER-----------------------------------------------------*/
-.footer{
-	/*display: flex;
-	flex-direction:column;*/
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-}
-.footer__content{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	max-width: 1920px;
-	height: 400px;
-	background-color: rgb(255, 255, 255);
-}
-.footer__text{
-	color: gray;
-	margin-left: 50px;
-	text-align: center;
-}
-.footer--facebook{
-	text-decoration: none;
-	color:gray;
-	margin-right: 20px;
-}
-.footer--twitter{
-		text-decoration: none;
-		color:gray;
-	   margin-right: 20px;
-}
-.footer--googleplus{
-		text-decoration: none;
-		color:gray;
-		margin-right: 20px;
-}
-.footer--dribble{
-		text-decoration: none;
-		color:gray;
-		margin-right: 20px;
-}
-.footer--linkedin{
-		text-decoration: none;
-		color:gray;
-}
-.footer__links{
-	margin-left: 60px;
-	text-align: center;
-}
-.footer__link{
-	text-decoration: none;
-	color: burlywood;
-}
 
-/*------------------------ADAPTIVE---------------------------------------------------------------------*/
 @media (max-width: 990px){
 	body{box-sizing: border-box;}
 	.header__content{
@@ -558,20 +12,20 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 20px;
+		font-size: 2rem;
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 40px;
+		font-size: 4rem;
 	}
 	.header__paragr{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -585,7 +39,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.skills__picture{
 		width: 50%;
@@ -595,10 +49,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 	padding-left: 30px;
-	font-size: 20px;
+	font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -624,7 +78,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-	font-size: 18px;
+	font-size: 1.8rem;
 	}
 	.prefooter__content{
 		max-width: 100%;
@@ -657,20 +111,20 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 16px;
+		font-size: 1.6rem;
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -684,7 +138,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.skills__picture{
 		width: 50%;
@@ -694,10 +148,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 	padding-left: 30px;
-	font-size: 20px;
+	font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -723,7 +177,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-	font-size: 18px;
+		font-size: 1.8rem;
 	}
 	.prefooter__content{
 		max-width: 100%;
@@ -744,7 +198,9 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 667px){
-	body{box-sizing: border-box;}
+	body{
+		box-sizing: border-box;
+	}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -756,20 +212,20 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 13px;
+		font-size: 1.3rem;
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -783,7 +239,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.skills__picture{
 		width: 50%;
@@ -792,11 +248,11 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 50%;
 	}
 	.skills__levels--all-skills{
-	padding-left: 30px;
-	font-size: 20px;
+	padding-left: 20px;
+	font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -822,7 +278,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-	font-size: 18px;
+	font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
 		height: 750px;
@@ -841,8 +297,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 13px;
-		margin: -10px;
+		font-size: 1.3rem;
+		margin: -0px;
 	}
 	.footer__text{
 		margin-left: 20px;
@@ -866,20 +322,20 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 13px;
+		font-size: 1.3rem;
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -893,7 +349,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.skills__picture{
 		width: 50%;
@@ -903,10 +359,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 	padding-left: 30px;
-	font-size: 20px;
+	font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -932,7 +388,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-	font-size: 18px;
+	font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
 		height: 750px;
@@ -949,7 +405,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.prefooter__picture{
 	}
 	.prefooter__button--send{
-		font-size: 14px;
+		font-size: 1.4rem;
 		padding-right: 60px;
 		padding-left: 60px;
 	}
@@ -958,8 +414,9 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 13px;
-		margin: -10px;
+		font-size: 1.1rem;
+		margin: 0px;
+		overflow: hidden;
 	}
 	.footer__text{
 		margin-left: 20px;
@@ -971,7 +428,9 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 }
 @media (max-width: 414px){
-	body{box-sizing: border-box;}
+	body{
+		box-sizing: border-box;
+	}
 	.header__content{
 		display: flex;
 		flex-direction: column;
@@ -988,10 +447,11 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 11px;
+		font-size: 1.1rem;
 		margin-right:1px;
 		padding: 0;
-		margin: 7px;
+		margin-right: 4px;
+		margin-left: 0;
 	}
 	.header__links{
 		height: 70px;
@@ -1003,17 +463,17 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		box-shadow: 0px 0px 4px rgb(0,0,0);
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -1027,7 +487,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 19px;
+		font-size: 1.9rem;
 	}
 	.skills__picture{
 		width: 100%;
@@ -1037,10 +497,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 		padding-left: 30px;
-		font-size: 20px;
+		font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -1066,7 +526,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 	.education__picture{
 		height: 750px;
@@ -1091,7 +551,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		padding-right: 5px;
 	}
 	.prefooter__button--send{
-		font-size: 16px;
+		font-size: 1.6rem;
 		padding-right: 80px;
 		padding-left: 80px;
 		margin-left: 0px;
@@ -1162,7 +622,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 11px;
+		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
 		margin: 3px;
@@ -1178,17 +638,17 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		box-shadow: 0px 0px 4px rgb(0,0,0);
 	}
 	.header__welcome-message{
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 25px;
+		font-size: 2.5rem;
 	}
 	.header__get-started{
-		font-size: 25px;
+		font-size: 2.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -1202,7 +662,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 19px;
+		font-size: 1.9rem;
 	}
 	.skills__picture{
 		width: 100%;
@@ -1212,10 +672,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 		padding-left: 30px;
-		font-size: 20px;
+		font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -1241,7 +701,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 	.education__picture{
 		height: 750px;
@@ -1266,7 +726,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		padding-right: 5px;
 	}
 	.prefooter__button--send{
-		font-size: 13px;
+		font-size: 1.3rem;
 		padding-right: 60px;
 		padding-left: 60px;
 		margin-left: 0px;
@@ -1303,7 +763,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 13px;
+		font-size: 1.3rem;
 		margin: -10px;	
 	}
 	.prefooter__textarea--message{	
@@ -1314,6 +774,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.prefooter__links{
 		padding-left: 20px;
+		overflow: hidden;
 	}
 	.footer__content{
 		height: 200px;
@@ -1346,7 +807,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width:100%; 
 	}
 	.items{
-		font-size: 11px;
+		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
 		margin: 3px;
@@ -1362,19 +823,19 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		box-shadow: 0px 0px 4px rgb(0,0,0);
 	}
 	.header__welcome-message{
-		font-size: 18px;
+		font-size: 1.8rem;
 		margin-top: 60px;
 	}
 	.header__hello-massage{
 		font-weight: 100;
-		font-size: 30px;
+		font-size: 3rem;
 	}
 	.header__paragr{
-		font-size: 15px;
+		font-size: 1.5rem;
 		margin-left: 2px;
 	}
 	.header__get-started{
-		font-size: 15px;
+		font-size: 1.5rem;
 		margin-top: 0px;
 	}
 	.main__skills__content{
@@ -1388,7 +849,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	.skills__text--brown,
 	.skills__text--gray,
 	.skills__text--header{
-		font-size: 19px;
+		font-size: 1.9rem;
 	}
 	.skills__picture{
 		width: 100%;
@@ -1398,10 +859,10 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.skills__levels--all-skills{
 		padding-left: 30px;
-		font-size: 20px;
+		font-size: 2rem;
 	}
 	.progress-name{
-		font-size: 17px;
+		font-size: 1.7rem;
 	}
 	.main__more__content{
 		display: flex;
@@ -1427,7 +888,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
 		height: 760px;
@@ -1435,11 +896,11 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	}
 	.education__inform,.experiences__inform{
 		height: 760px;
-		font-size: 13px;
+		font-size: 1.3rem;
 		width: 60%;
 	}
 	.Education,.Experiences{
-		font-size: 20px;
+		font-size: 2rem;
 		margin-bottom: 0;
 		padding: 0;
 	}
@@ -1454,7 +915,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		padding-right: 5px;
 	}
 	.prefooter__button--send{
-		font-size: 13px;
+		font-size: 1.3rem;
 		padding-right: 60px;
 		padding-left: 60px;
 		margin-left: 0px;
@@ -1486,12 +947,11 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		width: 100%;
 		padding: 0px;
 		margin: 0px;
-		/*max-width: 183px;*/
 		max-width:50%;
 	}
 	.prefooter__links{
 		padding: 0px;
-		font-size: 13px;
+		font-size: 1.3rem;
 		margin: -10px;
 		
 	}
@@ -1499,7 +959,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 		padding-left: 20px;
 	}
 	.prefooter__links{
-		padding-left: 20px;
+		padding-left: 10px;
+		overflow: hidden;
 	}
 	.footer__content{
 		height: 200px;

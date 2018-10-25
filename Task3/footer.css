@@ -1,0 +1,50 @@
+.footer{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+.footer__content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 1920px;
+	height: 400px;
+	background-color: rgb(255, 255, 255);
+}
+.footer__text{
+	color: gray;
+	margin-left: 50px;
+	text-align: center;
+}
+.footer--facebook{
+	text-decoration: none;
+	color:gray;
+	margin-right: 20px;
+}
+.footer--twitter{
+		text-decoration: none;
+		color:gray;
+	   margin-right: 20px;
+}
+.footer--googleplus{
+		text-decoration: none;
+		color:gray;
+		margin-right: 20px;
+}
+.footer--dribble{
+		text-decoration: none;
+		color:gray;
+		margin-right: 20px;
+}
+.footer--linkedin{
+		text-decoration: none;
+		color:gray;
+}
+.footer__links{
+	margin-left: 60px;
+	text-align: center;
+}
+.footer__link{
+	text-decoration: none;
+	color: burlywood;
+}

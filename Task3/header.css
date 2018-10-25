@@ -1,0 +1,92 @@
+html{
+	font-size: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+	display: flex;
+	flex-direction: column; 
+	height: 100%;
+}
+.header{
+	font-family: 'Lato', sans-serif;
+}
+.items{
+	text-decoration: none;
+	display:inline-block;
+	text-transform: uppercase;
+	margin-left: 30px;
+	font-size: 1.2rem;
+	font-family:sans-serif;
+	font-weight: 600;
+	margin-top: 15px;
+}
+
+.header__content{
+	display: flex;
+	max-width: 1920px;
+}
+.header__picture{
+	width: 50%;
+	height: 820px;
+	background-size: cover;
+	background-position: center;
+	background-image:url(images/home-img.jpg);
+}
+.header--stimulus{
+	padding-left: 170px;
+	padding-top: 10px;
+	font-weight: 700;
+	color: black;
+	text-shadow: 1px 1px 0px rgb(255,255,255);
+	font-size: 2rem;
+}
+.header__navigation{
+	width: 50%;
+	height: 820px;
+	background-color: rgb(240, 226, 215);
+}
+.links{
+	text-decoration: none;
+	color: black;
+}
+.links:hover{
+	color: burlywood;
+}
+.header__get-started{
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-radius: 100px;
+	background-color: rgb(240, 226, 215);
+	color: black;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	border-color: black;
+	margin-left: 40px;
+	margin-top: 60px;
+}
+.header__welcome-message{
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	color: gray;
+	font-weight: 100;
+	margin-left: 40px;
+	margin-top: 195px;
+}
+.header__hello-massage{
+	font-weight: 100;
+	font-size: 3.3rem;
+	margin-left: 40px;
+	width: 90%;
+}
+.header__paragr{
+	font-size: 1.5rem;
+	color: gray;
+	font-weight: 100;
+	margin-left: 40px;
+	width: 90%;
+}
