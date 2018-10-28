@@ -121,7 +121,35 @@ function isPrime(num)
 console.log("Простые и не простые числа:");
 //2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101,...
 isPrime(100);
-/*Найдите все уникальные строки в массиве.*/
-/*Найти первые n простых чисел. 1 =< n <= 1000000*/
+
 /*Серия чисел, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317 (^ - степень числа). Найдите 10 последних цифр результата такой последовательности, для заданного n. 1 <= n <= 1000*/
+function posledovat(n)
+{
+	var massive=[];
+	var k=0;
+	for(var i=0; i<=n; i++)
+		{
+			massive[i]=Math.pow(i,i);
+			k+=massive[i];
+		}
+	console.log("Результат последовательности: " + k);
+	var m = k.toString();
+	var TenLastNum=[];
+	for(var j=0;j<=m.length;j++)
+		{
+			TenLastNum[j]=m[j];
+			//console.log(TenLastNum[j]);
+		}
+	var z = TenLastNum.reverse();
+	//console.log(z);
+	var l
+	for(var l=0;l<=10;l++)
+		{
+			console.log(z[l]);
+		}
+}
+posledovat(13);
+
+
+/*Найдите все уникальные строки в массиве.*/
 /*Найти первые n простых чисел. 1 =< n <= 1000000*/
