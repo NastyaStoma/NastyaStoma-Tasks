@@ -1,0 +1,77 @@
+.main__more{
+	display: flex;
+}
+.main__more__content{
+	display: flex;
+	max-width: 1920px;
+	
+}
+.more__card--one{
+	width: 25%;
+	height: 340px;
+	background-color:rgb(218, 165, 32);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-items: center;
+}
+.more__card--two{
+	width: 25%;
+	height: 340px;
+	background-color: rgb(210, 105, 30);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-items: center;
+}
+.more__card--three{
+	width: 25%;
+	height: 340px;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-items: center;
+}
+.more__card--four{
+	width: 25%;
+	height: 340px;
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-items: center;
+}
+.card__text--two,.card__text--one{
+	text-align: center;
+	padding: 20px;
+	font-size: 1.4rem;
+}
+.card__text--three,.card__text--four{
+	text-align: center;
+	padding: 20px;
+	font-size: 1.4rem;
+}
+.fa-paper-plane,.fa-table,.fa-picture-o{
+	color: whitesmoke;
+	padding-top: 50px;
+}
+.fa-html5{
+	padding-top: 50px;
+}
+.card__headline--one,.card__headline--two,
+.card__headline--three{
+	color: white;
+	font-size: 2.5rem;
+}
+.card__headline--four{
+	font-size: 2.5rem;
+}
+.card__text--one,.card__text--two,
+.card__text--three{
+	color: white;
+}

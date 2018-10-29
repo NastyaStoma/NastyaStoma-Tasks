@@ -1,0 +1,26 @@
+.main__experiences{
+	display: flex;
+	max-width: 1920px;
+}
+.main__experiences__content{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.experiences__picture{
+	min-width: 50%;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	background-image:url(images/experience-img.jpg);
+}
+.experiences__inform{
+	max-width: 50%;
+	height: 400px;
+	background-color: rgb(210, 105, 30);
+	display: flex;
+  	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 30px;
+	color: whitesmoke;
+}
