@@ -11,7 +11,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 2rem;
 	}
 	.header__welcome-message{
@@ -28,7 +28,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -36,8 +36,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -110,7 +110,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.6rem;
 	}
 	.header__welcome-message{
@@ -127,7 +127,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -135,8 +135,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -211,7 +211,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.3rem;
 	}
 	.header__welcome-message{
@@ -228,7 +228,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -236,8 +236,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -321,7 +321,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.3rem;
 	}
 	.header__welcome-message{
@@ -338,7 +338,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -346,8 +346,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 2.5rem;
 	}
@@ -446,7 +446,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:1px;
 		padding: 0;
@@ -476,7 +476,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -484,8 +484,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}
@@ -621,7 +621,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
@@ -651,7 +651,7 @@
 		font-size: 2.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -659,8 +659,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}
@@ -806,7 +806,7 @@
 	.header__navigation{
 		width:100%; 
 	}
-	.items{
+	.menu__item{
 		font-size: 1.1rem;
 		margin-right:2px;
 		padding: 0;
@@ -838,7 +838,7 @@
 		font-size: 1.5rem;
 		margin-top: 0px;
 	}
-	.main__skills__content{
+	.main__skills--content{
 		display: flex;
 		flex-wrap: wrap;
 		align-content: flex-start;
@@ -846,8 +846,8 @@
 	.skills__text{
 		width: 100%;
 	}
-	.skills__text--brown,
-	.skills__text--gray,
+	.skills__text--first,
+	.skills__text--second,
 	.skills__text--header{
 		font-size: 1.9rem;
 	}

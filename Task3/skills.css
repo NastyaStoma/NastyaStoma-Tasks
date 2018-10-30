@@ -7,12 +7,12 @@
 .main__skills{
 	display: flex;
 }
-.main__skills__content{
+.main__skills--content{
 	max-width: 1920px;
 	display: flex;
 }
-.skills__text--brown,
-.skills__text--gray,
+.skills__text--first,
+.skills__text--second,
 .skills__text--header{
 	padding-left: 30px;
 	padding-right: 30px;
@@ -23,7 +23,7 @@
 	font-weight: 100;
 	font-size: 2.5rem;
 }
-.skills__text--brown{
+.skills__text--first{
 	color: burlywood;
 }
 .skills__text{

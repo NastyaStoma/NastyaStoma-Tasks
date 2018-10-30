@@ -11,7 +11,7 @@ body{
 .header{
 	font-family: 'Lato', sans-serif;
 }
-.items{
+.menu__item{
 	text-decoration: none;
 	display:inline-block;
 	text-transform: uppercase;
@@ -46,11 +46,11 @@ body{
 	height: 820px;
 	background-color: rgb(240, 226, 215);
 }
-.links{
+.menu__link{
 	text-decoration: none;
 	color: black;
 }
-.links:hover{
+.menu__link:hover{
 	color: burlywood;
 }
 .header__get-started{
