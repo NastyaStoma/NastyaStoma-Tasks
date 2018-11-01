@@ -95,7 +95,8 @@ function posledovat(n) {
         massive[i] = Math.pow(i, i);
         k += massive[i];
     }
-    console.log("Результат последовательности: " + k);
+    console.log("Результат последовательности:");
+	return k;
     var m = k.toString();
     var TenLastNum = [];
     for (var j = 0; j <= m.length; j++) {
@@ -105,8 +106,8 @@ function posledovat(n) {
     var z = TenLastNum.reverse();
     for (var l = 0; l <= 10; l++) {
         console.log(z[l]);
-		return z[l];
     }
+	return;
 }
 
 /*Найти все простые числа до заданного n. Простые числа - это те числа, которые делятся только на себя и на 1. 1 <= n 1 000 000 000*/
@@ -116,8 +117,7 @@ function isPrime(num) {
         for (var i = 4; i <= num; i++) {
             for (var j = 2; j < i; j = j + 1) {
                 if (i % j == 0) {
-                    console.log(" НЕ простое число");
-					return i;
+                    console.log(" НЕ простое число" + i);
                 }
             }
         }
@@ -126,16 +126,15 @@ function isPrime(num) {
             var a = 2;
             if (i % a !== 0 && i % i == 0 || i == 2) {
                 if (i % 5 !== 0 && i % 3 !== 0 && i % 7 !== 0 || i == 3 || i == 5 || i == 7)
-                    console.log(" простое число");
-					return i;
+                    console.log(" простое число" + i);
             }
         }
     } else {
         for (var i = 1; i <= num; i++) {
-            console.log(" простое");
-			return i;
+            console.log(" простое" + i);
         }
     }
+	return;
 }
 // простые числа - 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101,...
 
