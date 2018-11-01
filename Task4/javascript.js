@@ -68,40 +68,24 @@ function number(num) {
     return summ;
 }
 
-//!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!
-//!!!!!!!!!!!!!!!!!!!!!!!
-/*Найти все простые числа до заданного n. Простые числа - это те числа, которые делятся только на себя и на 1. 1 <= n 1 000 000 000*/
-function isPrime(num) {
-    if (num > 3) {
-        console.log("Список НЕ простых чисел:");
-        for (var i = 4; i <= num; i++) {
-            for (var j = 2; j < i; j = j + 1) {
-                if (i % j == 0) {
-                    console.log(i + " НЕ простое число");
-                }
-            }
-        }
-        console.log("Список ПРОСТЫХ чисел:");
-        for (var i = 2; i <= num; i++) {
-            var a = 2;
-            if (i % a !== 0 && i % i == 0 || i == 2) {
-                if (i % 5 !== 0 && i % 3 !== 0 && i % 7 !== 0 || i == 3 || i == 5 || i == 7)
-                    console.log(i + " простое число");
-            }
-        }
-    } else {
-        for (var i = 1; i <= num; i++) {
-            console.log(i + " простое");
+/*Найдите все уникальные строки в массиве.*/
+function uniqstrings() {
+    //дополнительный массив
+    var massive = [];
+	console.log("Все уникальные строки в массиве:");
+    for (var i = 0; i < arguments.length; i++) {
+        //искомый элемент arguments[i] 
+        if (massive.indexOf(arguments[i]) < 0) {
+            //добавляем элементы в конец дополнительного
+            //массива massive
+            massive.push(arguments[i]);
         }
     }
+    return massive;
 }
-console.log("Простые и не простые числа:");
-//2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101,...
-isPrime(100);
+//слова выбиваются впорядке того, как записаны
+//т.е. первое want остаётся, а все остальные после него - нет
+//uniqstrings("i", "i", "want", "to", "want", "want", "have", "a", "rest", "rest", "at", "home", "please");
 
 /*Серия чисел, 1^1 + 2^2 + 3^3 + ... + 10^10 = 10405071317 (^ - степень числа). Найдите 10 последних цифр результата такой последовательности, для заданного n. 1 <= n <= 1000*/
 function posledovat(n) {
@@ -117,31 +101,44 @@ function posledovat(n) {
     for (var j = 0; j <= m.length; j++) {
         TenLastNum[j] = m[j];
     }
+	console.log("10 последних цифр результата такой последовательности:");
     var z = TenLastNum.reverse();
     for (var l = 0; l <= 10; l++) {
         console.log(z[l]);
+		return z[l];
     }
 }
-posledovat(13);
 
-/*Найдите все уникальные строки в массиве.*/
-function uniqstrings() {
-    //дополнительный массив
-    var massive = [];
-    for (var i = 0; i < arguments.length; i++) {
-        //искомый элемент arguments[i] 
-        if (massive.indexOf(arguments[i]) < 0) {
-            //добавляем элементы в конец дополнительного
-            //массива massive
-            massive.push(arguments[i]);
+/*Найти все простые числа до заданного n. Простые числа - это те числа, которые делятся только на себя и на 1. 1 <= n 1 000 000 000*/
+function isPrime(num) {
+    if (num > 3) {
+        console.log("Список НЕ простых чисел:");
+        for (var i = 4; i <= num; i++) {
+            for (var j = 2; j < i; j = j + 1) {
+                if (i % j == 0) {
+                    console.log(" НЕ простое число");
+					return i;
+                }
+            }
+        }
+        console.log("Список ПРОСТЫХ чисел:");
+        for (var i = 2; i <= num; i++) {
+            var a = 2;
+            if (i % a !== 0 && i % i == 0 || i == 2) {
+                if (i % 5 !== 0 && i % 3 !== 0 && i % 7 !== 0 || i == 3 || i == 5 || i == 7)
+                    console.log(" простое число");
+					return i;
+            }
+        }
+    } else {
+        for (var i = 1; i <= num; i++) {
+            console.log(" простое");
+			return i;
         }
     }
-    console.log(massive);
 }
-console.log("Все уникальные строки в массиве:");
-//слова выбиваются впорядке того, как записаны
-//т.е. первое want остаётся, а все остальные после него - нет
-uniqstrings("i", "i", "want", "to", "want", "want", "have", "a", "rest", "rest", "at", "home", "please");
+// простые числа - 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101,...
+
 
 /*Найти первые n простых чисел. 1 =< n <= 1000000*/
 /*function PrimeAmounth(numbers) {
