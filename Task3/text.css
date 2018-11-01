@@ -3,7 +3,7 @@
 	background-image:url(images/quotes-bg.jpg);
 	max-width: 1920px;
 }
-.text__content{
+.main__text--content{
 	width: 100%;
 	height: 400px;
 	background-size: cover;

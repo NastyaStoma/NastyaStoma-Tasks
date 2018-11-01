@@ -1,7 +1,7 @@
 .main__prefooter{
 	max-width: 1920px;
 }
-.prefooter__content{
+.main__prefooter--content{
 	width: 100%;
 	display: flex;
 	height: 610px;

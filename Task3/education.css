@@ -2,7 +2,7 @@
 	display: flex;
 	max-width: 1920px;
 }
-.main__education__content{
+.main__education--content{
 	width: 100%;
 	display: flex;
 }

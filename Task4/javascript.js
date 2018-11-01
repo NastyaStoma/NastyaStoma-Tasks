@@ -1,43 +1,40 @@
 /*Найти среднее арифметическое чисел из массива.*/
 function arifmitich() {
     var j = 0;
+	console.log("Среднее арифметическое массива:");
     for (var i = 0; i < arguments.length; i++) {
         j += arguments[i];
     }
-    console.log(j / arguments.length);
+	return (j / arguments.length);
 }
-console.log("Среднее арифметическое массива:");
-arifmitich(2, 2, 5, 5, 13);
 
 /*Найти максимальное число в массиве.*/
 function maxValue() {
+	var j = 0;
+	console.log("Максимальное число в массиве:");
     for (var i = 0; i < arguments.length; i++) {
         if (arguments[i] > arguments[0]) {
             arguments[0] = arguments[i];
+			j = arguments[0];
         }
     }
-    console.log(arguments[0]);
+    return j;
 }
-console.log("Максимальное число в массиве:");
-maxValue(1, 12, 50, 10, 8);
 
 /*Определить, является ли фраза/слово палиндромом*/
 function palindrom() {
-    var s = "moom";
+    var s = "molpplom";
+	console.log("Строка - палиндром:");
     for (var i = 0; i < s.length; i++) {
         if (s[i] === s[s.length - 1 - i]) {
-            console.log('является');
+            return "является";
         } else {
-            console.log('не является');
+            return "не является";
         }
     }
 }
-console.log("Строка - палиндром:");
-palindrom();
 
 /*Найти сумму первых n четных чисел фибоначчи. Числа фибоначчи - первые два числа равны 1 и 1, а каждое последующее число равно сумме двух предыдущих чисел. 1 <= n <= 100000*/
-var n = 0;
-
 function fibonachchi(n) {
     //Числа Фибоначчи 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711,..
     var i = 1,
@@ -47,6 +44,7 @@ function fibonachchi(n) {
     //i=0+1,j=1+1-(начальные) значения ряда
     //next-сумма предыдущих значений ряда
     //summa - сумма чётных значений ряда(поэтому начинается с 2)
+	console.log("Сумма n чётных чисел Фибоначчи:");
     while ((i + j) < n) {
         next = i + j; //3 = 1+2
         i = j; //1=2
@@ -55,23 +53,27 @@ function fibonachchi(n) {
             summa += next; //если сумма значений чётная,то она приплюсовывается в summa (чётных значений)
         }
     }
-    console.log(summa);
+	return summa;
 }
-console.log("Сумма n чётных чисел Фибоначчи:");
-fibonachchi(100); //2+8+34
 
 /*Найти сумму цифр данного числа*/
-function number() {
+function number(num) {
     //если число - строка
-    var num = "2222",
+    //var num = "2222",
         summ = 0;
-    for (var i = 0; i < num.length; i++)
-        summ += Number(num[i]);
-    console.log(summ);
+	console.log("Сумма цифр числа:");
+    for (var i = 0; i < num.length; i++){
+        summ += Number(num[i]);		
+	}
+    return summ;
 }
-console.log("Сумма цифр числа:");
-number();
 
+//!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!
+//!!!!!!!!!!!!!!!!!!!!!!!
 /*Найти все простые числа до заданного n. Простые числа - это те числа, которые делятся только на себя и на 1. 1 <= n 1 000 000 000*/
 function isPrime(num) {
     if (num > 3) {

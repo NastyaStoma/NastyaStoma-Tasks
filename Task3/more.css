@@ -1,7 +1,7 @@
 .main__more{
 	display: flex;
 }
-.main__more__content{
+.main__more--content{
 	display: flex;
 	max-width: 1920px;
 	
