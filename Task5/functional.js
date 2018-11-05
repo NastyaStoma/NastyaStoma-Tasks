@@ -1,4 +1,4 @@
-function faculty(founderFirstName, founderLastName, students, age) {
+function University(founderFirstName, founderLastName, students, age) {
     this.founderFirstName = founderFirstName;
     this.founderLastName = founderLastName;
     this.students = students;
@@ -12,13 +12,11 @@ function faculty(founderFirstName, founderLastName, students, age) {
 }
 
 function Gryffindor(founderFirstName, founderLastName, students, age) {
-    faculty.apply(this, arguments);
-    var skills = "Bravery!";
-    this.color = "Red";
-    this.Skills = function() {
-        console.log("Skills:" + skills);
+    University.apply(this, arguments);
+    var city = "London";
+    this.Place = function() {
+        console.log("City:" + city);
     }
 }
 var gryffindor = new Gryffindor("Godric", "Gryffindor", 300, 30000);
 gryffindor.founderFirstName;
-gryffindor.color;

@@ -1,4 +1,4 @@
-function Faculty(founderFirstName, founderLastName, students, age) {
+function School(founderFirstName, founderLastName, students, age) {
     this.founderFirstName = founderFirstName;
     this.founderLastName = founderLastName;
     this.students = students;
@@ -10,15 +10,14 @@ function Faculty(founderFirstName, founderLastName, students, age) {
         console.log("Students:" + this.students + ", age:" + this.age);
     }
 }
-Slytherin.prototype = Object.create(Faculty.prototype);
+Hogwarts.prototype = Object.create(School.prototype);
 
-function Slytherin(founderFirstName, founderLastName, students, age) {
-    Faculty.apply(this, arguments);
-    var skills = "Ambition!";
-    var color = "Green";
-    this.Skills = function() {
-        console.log("Skills:" + skills);
+function Hogwarts(founderFirstName, founderLastName, students, age) {
+    School.apply(this, arguments);
+    var city = "United Kingdom";
+    this.Place = function() {
+        console.log("City:" + city);
     }
 }
 
-var slytherin = new Slytherin("Salazar", "Slytherin", 250, 150);
+var hogwarts = new Hogwarts("Salazar", "Slytherin", 250, 150);

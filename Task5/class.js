@@ -1,4 +1,4 @@
-class Faculties {
+class Universities {
     constructor(founderFirstName, founderLastName, students, age) {
         this.founderFirstName = founderFirstName;
         this.founderLastName = founderLastName;
@@ -6,19 +6,19 @@ class Faculties {
         this.age = age;
     }
     fullName() {
-        console.log("The founder of the faculty: " + this.founderFirstName + " " + this.founderLastName);
+        console.log("The founder of the university: " + this.founderFirstName + " " + this.founderLastName);
     }
     description() {
         console.log("Students:" + this.students + ", age:" + this.age);
     }
 }
-class Ravenclaw extends Faculties {
-    Skills() {
-        var skills = "Intelligence!";
-        console.log("Skills:" + skills);
+class Hogwarts extends Universities {
+    Place() {
+        var city = "Scotland";
+        console.log("City:" + city);
     }
 }
-var ravenclaw = new Ravenclaw("Rowena", "Ravenclaw", 450, 400);
-ravenclaw.fullName();
-ravenclaw.Skills();
-ravenclaw.description();
+var hogwarts = new Hogwarts("Rowena", "Ravenclaw", 450, 400);
+hogwarts.fullName();
+hogwarts.Place();
+hogwarts.description();
