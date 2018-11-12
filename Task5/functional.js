@@ -4,7 +4,7 @@ function University(founderFirstName, founderLastName, students, age) {
     this.students = students;
     this.age = age;
     this.founderFullName = function() {
-        console.log("The founder of the faculty: " + this.founderFirstName + " " + this.founderLastName);
+        console.log("The founder of the university: " + this.founderFirstName + " " + this.founderLastName);
     }
     this.description = function() {
         console.log("Students:" + this.students + ", age:" + this.age);
