@@ -3,18 +3,19 @@ function School(founderFirstName, founderLastName, students, age) {
     this.founderLastName = founderLastName;
     this.students = students;
     this.age = age;
-    this.founderFullName = function() {
+}
+School.prototype.founderFullName = function() {
         console.log("The founder of the school: " + this.founderFirstName + " " + this.founderLastName);
     }
-    this.description = function() {
+School.prototype.description = function() {
         console.log("Students:" + this.students + ", age:" + this.age);
     }
-}
+
 Hogwarts.prototype = Object.create(School.prototype);
 
 function Hogwarts(founderFirstName, founderLastName, students, age) {
     School.apply(this, arguments);
-    var city = "United Kingdom";
+    this.city = "London";
     this.Place = function() {
         console.log("City:" + city);
     }

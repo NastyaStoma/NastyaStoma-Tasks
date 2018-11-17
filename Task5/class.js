@@ -1,4 +1,4 @@
-class Universities {
+class University {
     constructor(founderFirstName, founderLastName, students, age) {
         this.founderFirstName = founderFirstName;
         this.founderLastName = founderLastName;
@@ -12,7 +12,7 @@ class Universities {
         console.log("Students:" + this.students + ", age:" + this.age);
     }
 }
-class Hogwarts extends Universities {
+class Hogwarts extends University {
     Place() {
         var city = "Scotland";
         console.log("City:" + city);

@@ -39,6 +39,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	width: 100%;
 	margin-bottom: 43px;
 	padding-bottom: 8px;
+	outline: none;
+	color: white;
 }
 .prefooter__input--email{
 	background-color: rgb(210, 105, 30);
@@ -49,6 +51,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	width: 100%;
 	margin-bottom: 10px;	
 	padding-bottom: 40px;
+	outline: none;
+	color: white;
 }
 .prefooter__textarea--message{
 	background-color: rgb(210, 105, 30);
@@ -59,6 +63,8 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	width: 100%;
 	margin-bottom: 30px;	
 	height: 130px;
+	outline: none;
+	color: white;
 }
 .prefooter__button--send{
 	font-size: 18px;
@@ -73,6 +79,7 @@ textarea::-webkit-input-placeholder { color: white;font-family: 'Lato', sans-ser
 	margin-left: 10px;
 	font-weight: 600;
 	font-family: 'Lato', sans-serif;
+	outline: none;
 }
 .prefooter__picture{
 	width: 25%;

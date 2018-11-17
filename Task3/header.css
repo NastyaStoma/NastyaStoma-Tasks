@@ -68,6 +68,7 @@ body{
 	border-color: black;
 	margin-left: 40px;
 	margin-top: 60px;
+	outline: none;
 }
 .header__welcome-message{
 	font-size: 1.2rem;

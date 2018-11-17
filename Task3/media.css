@@ -1,4 +1,121 @@
-
+@media (max-width: 1920px){
+	body{box-sizing: border-box;}
+	.header__content{
+		display: flex;
+		flex-direction: row;
+	}
+	.header__picture{
+		width: 50%;
+	}
+	.header__navigation{
+		width:50%; 
+	}
+	.menu__item{
+		font-size: 1.7rem;
+	}
+	.header__welcome-message{
+		font-size: 3rem;
+	}
+	.header__hello-massage{
+		font-weight: 100;
+		font-size: 4rem;
+	}
+	.header__paragr{
+		font-size: 3rem;
+	}
+	.header__get-started{
+		font-size: 2.5rem;
+		margin-top: 0px;
+	}
+	.main__skills--content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.skills__text{
+		width: 50%;
+	}
+	.skills__text--first,
+	.skills__text--second,
+	.skills__text--header{
+		font-size: 2.5rem;
+	}
+	.skills__picture{
+		width: 25%;
+	}
+	.skills__levels{
+		width: 25%;
+	}
+	.skills__levels--all-skills{
+	padding-left: 30px;
+	font-size: 2rem;
+	}
+	.progress-name{
+		font-size: 1.7rem;
+	}
+	.main__more--content{
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	.more__card--one{
+		width: 50%;
+		background-color: rgb(210, 105, 30);
+		height: 400px;
+	}
+	.more__card--two{
+		width: 50%;
+		background-color:rgb(218, 165, 32);
+		height: 400px;
+	}
+	.more__card--three{
+		width: 50%;
+		height: 400px;
+	}
+	.more__card--four{
+		width: 50%;
+		height: 400px;
+	}
+	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	font-size: 2.5rem;
+	}
+	.fa-paper-plane,.fa-table,.fa-picture-o,.fa-html5{
+		font-size: 2.5rem;
+	}
+	.education__paragr,.experiences__paragr{
+		font-size: 2.1rem;
+	}
+	.duration{
+		font-size: 1.5rem;
+	}
+	.text__content--paragr{
+		font-size: 2.1rem;
+	}
+	.main__prefooter--content{
+		max-width: 100%;
+	}
+	.prefooter__paragr{
+		font-size: 2rem;
+	}
+	.prefooter__contacts--text{
+		padding-right: 20px;
+		font-size: 2rem;
+	}
+	.prefooter__links{
+		padding-right: 20px;
+		font-size: 2.1rem;
+	}
+	.footer__text{
+		margin-left: 20px;
+		text-align: center;
+		font-size: 2.1rem;
+	}
+	.footer__links{
+		text-align: center;
+		margin-left: 20px;
+		font-size: 2.5rem;
+	}
+}
 @media (max-width: 990px){
 	body{box-sizing: border-box;}
 	.header__content{
@@ -179,6 +296,12 @@
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 		font-size: 1.8rem;
 	}
+	.education__paragr,.experiences__paragr{
+		font-size: 1.6rem;
+	}
+	.duration{
+		font-size: 1.2rem;
+	}
 	.main__prefooter--content{
 		max-width: 100%;
 	}
@@ -279,6 +402,12 @@
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 	font-size: 1.8rem;
+	}
+	.education__paragr,.experiences__paragr{
+		font-size: 1.4rem;
+	}
+	.duration{
+		font-size: 1.2rem;
 	}
 	.education__picture,.experiences__picture{
 		height: 750px;
@@ -390,8 +519,14 @@
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
 	font-size: 1.8rem;
 	}
+	.education__paragr,.experiences__paragr{
+		font-size: 1.4rem;
+	}
 	.education__picture,.experiences__picture{
 		height: 750px;
+	}
+	.duration{
+		font-size: 1.2rem;
 	}
 	.education__inform,.experiences__inform{
 		height: 750px;
@@ -539,6 +674,9 @@
 	}
 	.experiences__inform{
 		height: 750px;
+	}
+	.education__paragr,.experiences__paragr{
+		font-size: 1.4rem;
 	}
 	.main__prefooter--content{
 		display: flex;
@@ -701,7 +839,7 @@
 		height: 400px;
 	}
 	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 	.education__picture{
 		height: 750px;
@@ -709,11 +847,17 @@
 	.education__inform{
 		height: 750px;
 	}
+	.education__paragr,.experiences__paragr{
+		font-size: 1.4rem;
+	}
 	.experiences__picture{
 		height: 750px;
 	}
 	.experiences__inform{
 		height: 750px;
+	}
+	.education__paragr{
+		font-size: 2rem;
 	}
 	.main__prefooter--content{
 		display: flex;
@@ -898,6 +1042,9 @@
 		height: 760px;
 		font-size: 1.3rem;
 		width: 60%;
+	}
+	.duration{
+		font-size: 1.3rem;
 	}
 	.Education,.Experiences{
 		font-size: 2rem;
