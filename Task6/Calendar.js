@@ -84,17 +84,17 @@ function DrawCalendar(TodayMonth) {
             switch (j) {
                 case 0:
                     if (input.value > 20) {
-						input.style.color = '#B5D0D9';
+                        input.style.color = '#B5D0D9';
                         input.style.backgroundColor = '#F5F5F5';
                     } else break;
                 case 4:
                     if (input.value < 20) {
-						input.style.color = '#B5D0D9';
+                        input.style.color = '#B5D0D9';
                         input.style.backgroundColor = '#F5F5F5';
                     }
                 case 5:
                     if (input.value < 20) {
-						input.style.color = '#B5D0D9';
+                        input.style.color = '#B5D0D9';
                         input.style.backgroundColor = '#F5F5F5';
                         break;
                     }
