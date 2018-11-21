@@ -46,12 +46,8 @@
 	align-items: flex-start;
 	align-items: center;
 }
-.card__text--two,.card__text--one{
-	text-align: center;
-	padding: 20px;
-	font-size: 1.4rem;
-}
-.card__text--three,.card__text--four{
+
+.card__text,.card__text--coding{
 	text-align: center;
 	padding: 20px;
 	font-size: 1.4rem;
@@ -63,15 +59,17 @@
 .fa-html5{
 	padding-top: 50px;
 }
-.card__headline--one,.card__headline--two,
-.card__headline--three{
+.card__headline{
 	color: white;
 	font-size: 2.5rem;
 }
-.card__headline--four{
+.card__headline--coding{
 	font-size: 2.5rem;
+	color: black;
 }
-.card__text--one,.card__text--two,
-.card__text--three{
+.card__text{
 	color: white;
+}
+.card__text--coding{
+	color: black;
 }

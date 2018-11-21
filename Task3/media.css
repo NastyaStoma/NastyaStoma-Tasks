@@ -1,4 +1,4 @@
-@media (max-width: 1920px){
+@media (min-width: 1920px){
 	body{box-sizing: border-box;}
 	.header__content{
 		display: flex;
@@ -76,7 +76,7 @@
 		width: 50%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 	font-size: 2.5rem;
 	}
 	.fa-paper-plane,.fa-table,.fa-picture-o,.fa-html5{
@@ -194,7 +194,7 @@
 		width: 50%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 	font-size: 1.8rem;
 	}
 	.main__prefooter--content{
@@ -293,7 +293,7 @@
 		width: 50%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 		font-size: 1.8rem;
 	}
 	.education__paragr,.experiences__paragr{
@@ -406,7 +406,7 @@
 		width: 50%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 	font-size: 1.8rem;
 	}
 	.education__paragr,.experiences__paragr{
@@ -528,7 +528,7 @@
 		width: 50%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 	font-size: 1.8rem;
 	}
 	.education__paragr,.experiences__paragr{
@@ -675,7 +675,7 @@
 		width: 100%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 		font-size: 1.8rem;
 	}
 	.education__picture{
@@ -857,7 +857,7 @@
 		width: 100%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 		font-size: 2rem;
 	}
 	.education__picture{
@@ -1057,7 +1057,7 @@
 		width: 100%;
 		height: 400px;
 	}
-	.card__text--two,.card__text--one,.card__text--three,.card__text--four{
+	.card__text,.card__text--coding{
 		font-size: 1.8rem;
 	}
 	.education__picture,.experiences__picture{
