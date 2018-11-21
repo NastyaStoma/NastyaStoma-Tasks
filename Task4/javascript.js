@@ -3,7 +3,7 @@ function primeNumbersToN(number) {
     if (number > 3) {
         for (var i = 2; i <= number; i++) {
             if (i % 2 !== 0 && i % i == 0 || i == 2) {
-                if (i % 5 !== 0 && i % 3 !== 0 && i % 7 !== 0 || i == 3 || i == 5 || i == 7)
+                if ((i % Math.floor(Math.sqrt(i))!== 0) && i % 5 !== 0 && i % 3 !== 0 && i % 7 !== 0 || i == 3 || i == 5 || i == 7)
                     ArrayOfPrimeNumbers.push(i);
             }
         }
@@ -15,7 +15,7 @@ function primeNumbersToN(number) {
     return ArrayOfPrimeNumbers;
 }
 
-function firstNprimeNumbers(amounth) {
+function FirstNprimeNumbers(amount) {
     var ArrayOfPrimeNumbers = [];
     var FirstNprimeNumbersArray = [];
     var number = 100000;
@@ -32,7 +32,7 @@ function firstNprimeNumbers(amounth) {
         }
     }
     var StringOfPrime = ArrayOfPrimeNumbers.toString().split(",");
-    for (var i = 0; i < amounth; i++) {
+    for (var i = 0; i < amount; i++) {
         FirstNprimeNumbersArray.push(StringOfPrime[i]);
     }
     return FirstNprimeNumbersArray;
@@ -59,32 +59,32 @@ function SumOfFibonacci(limit) {
     return SumOfEvenValues;
 }
 
-function OrderOfNumbers(number) {
+function TenLastNumbers(number) {
     var Order = [];
-    var OrderSumma = 0;
+    var OrderSum = 0;
     var Result = [];
     var TenLastNum = [];
     for (var i = 0; i <= number; i++) {
         Order[i] = Math.pow(i, i);
-        OrderSumma += Order[i];
+        OrderSum += Order[i];
     }
-    var SummaString = OrderSumma.toString();
-    for (var i = 0; i <= SummaString.length; i++) {
-        TenLastNum[i] = SummaString[i];
+    var SumString = OrderSum.toString();
+    for (var i = 0; i <= SumString.length; i++) {
+        TenLastNum[i] = SumString[i];
     }
-    var SummaReversed = TenLastNum.reverse();
+    var SumReversed = TenLastNum.reverse();
     for (var i = 0; i <= 10; i++) {
-        Result.push(SummaReversed[i]);
+        Result.push(SumReversed[i]);
     }
     return Result;
 }
 
 function AverageOfArray(Array) {
-    var Summa = 0;
+    var Sum = 0;
     for (var i = 0; i < Array.length; i++) {
-        Summa += Array[i];
+        Sum += Array[i];
     }
-    return (Summa / Array.length);
+    return (Sum / Array.length);
 }
 
 function ArrayMaxValue(Array) {
@@ -110,17 +110,19 @@ function UniqueStrings(Array) {
 
 function Palindrome(string) {
     var ReversedString = string.split("").reverse().join("");
+	var result = 0;
     if (string == ReversedString) {
-        return "Данная строка - полиндром";
+        result = "This string is a palindrome.";
     } else {
-        return "Данная строка не является полиндромом";
+        result = "This string is not a palindrome.";
     }
+	return result;
 }
 
-function SummOfDigits(string) {
-    Summa = 0;
+function SumOfDigits(string) {
+    Sum = 0;
     for (var i = 0; i < string.length; i++) {
-        Summa += Number(string[i]);
+        Sum += Number(string[i]);
     }
-    return Summa;
+    return Sum;
 }
