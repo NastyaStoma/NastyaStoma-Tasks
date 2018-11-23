@@ -1,22 +1,20 @@
 class University {
-    constructor(founderFirstName: string, founderLastName: string, students: number, age: number) {
-        this.founderFirstName = founderFirstName;
-        this.founderLastName = founderLastName;
-        this.students = students;
-        this.age = age;
-    }
-    fullName() {
-        console.log("The founder of the university: " + this.founderFirstName + " " + this.founderLastName);
+   private _founderFirstName: string;
+   private _founderLastName: string;
+   private _students: number;
+   private _age: number;
+	constructor(founderFullName: string) {
+        this._founderFirstName = founderFullName;
     }
     description() {
-        console.log("Students:" + this.students + ", age:" + this.age);
+        console.log("Students:" + this._students + ", age:" + this._age);
     }
 }
 
 class Hogwarts extends University {
-    private city: string = "London";
+    private _city: string = "London";
     Place() {
-        console.log("City:" + this.city);
+        console.log("City:" + this._city);
     }
 }
 
