@@ -1,0 +1,6 @@
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bentham|Caveat|Cormorant+Unicase|Montserrat|Open+Sans+Condensed:300|Playfair+Display|Poiret+One|Prata|Quicksand|Reenie+Beanie|Suranna|Ubuntu+Mono" rel="stylesheet">	
+<input id = "InputTask" type="text" #InputedTask placeholder = "I'm going to...">
+<button id = "ButtonAddTask" (click) = "AddTask(InputedTask.value)">Add</button>
+	<div *ngFor="let InputedTask of TasksArray; let i = index">
+		<div id = "TaskInList"><button id = "ButtonRemoveTask" (click) = RemoveTask(i)>X</button>{{InputedTask}}</div>
+	</div>
